@@ -1,0 +1,1099 @@
+12:23:07,932 INFO kernel:Command line: BOOT_IMAGE=vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS-8-2-2004-x86_64-dvd quiet
+12:23:07,932 INFO kernel:Disabled fast string operations
+12:23:07,932 INFO kernel:x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+12:23:07,932 INFO kernel:x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+12:23:07,932 INFO kernel:x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+12:23:07,932 INFO kernel:x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+12:23:07,932 INFO kernel:x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+12:23:07,932 INFO kernel:BIOS-provided physical RAM map:
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x00000000000dc000-0x00000000000fffff] reserved
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x0000000000100000-0x00000000affebfff] usable
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x00000000affec000-0x00000000affedfff] reserved
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x00000000affee000-0x00000000afffafff] ACPI data
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x00000000afffb000-0x00000000afffffff] ACPI NVS
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x00000000fed00000-0x00000000fed00fff] reserved
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x00000000fed04000-0x00000000fed04fff] reserved
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x00000000ffc00000-0x00000000ffffffff] reserved
+12:23:07,932 INFO kernel:BIOS-e820: [mem 0x0000000100000000-0x000000014fffffff] usable
+12:23:07,932 INFO kernel:NX (Execute Disable) protection: active
+12:23:07,932 INFO kernel:SMBIOS 2.7 present.
+12:23:07,932 INFO kernel:DMI: Parallels Software International Inc. Parallels Virtual Platform/Parallels Virtual Platform, BIOS 16.0.0 (48915) 07/29/2020
+12:23:07,932 INFO kernel:Hypervisor detected: KVM
+12:23:07,932 INFO kernel:kvm-clock: Using msrs 4b564d01 and 4b564d00
+12:23:07,932 INFO kernel:kvm-clock: cpu 0, msr 11a201001, primary cpu clock
+12:23:07,932 INFO kernel:kvm-clock: using sched offset of 7378596998 cycles
+12:23:07,932 INFO kernel:clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+12:23:07,932 INFO kernel:tsc: Detected 2400.000 MHz processor
+12:23:07,932 INFO kernel:last_pfn = 0x150000 max_arch_pfn = 0x400000000
+12:23:07,932 INFO kernel:x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+12:23:07,932 INFO kernel:last_pfn = 0xaffec max_arch_pfn = 0x400000000
+12:23:07,932 INFO kernel:found SMP MP-table at [mem 0x0009fc30-0x0009fc3f]
+12:23:07,932 INFO kernel:RAMDISK: [mem 0x7c1e6000-0x7fffffff]
+12:23:07,932 INFO kernel:ACPI: Early table checksum verification disabled
+12:23:07,932 INFO kernel:ACPI: RSDP 0x00000000000E0000 000024 (v02 PRLS  )
+12:23:07,932 INFO kernel:ACPI: XSDT 0x00000000AFFF2D40 00004C (v01 PRLS   PRLS_OEM 00000001 INTL 20051216)
+12:23:07,932 INFO kernel:ACPI: FACP 0x00000000AFFEE0C0 0000F4 (v03 PRLS   PRLS_OEM 00000001 INTL 20051216)
+12:23:07,932 INFO kernel:ACPI: DSDT 0x00000000AFFEE440 004853 (v02 PRLS   PRLSACPI 00001001 INTL 20160527)
+12:23:07,932 INFO kernel:ACPI: FACS 0x00000000AFFEE1C0 000040
+12:23:07,932 INFO kernel:ACPI: FACS 0x00000000AFFEE1C0 000040
+12:23:07,932 INFO kernel:ACPI: APIC 0x00000000AFFEE200 000216 (v01 PRLS   PRLS_OEM 00000001 INTL 20051216)
+12:23:07,932 INFO kernel:ACPI: HPET 0x00000000AFFF2CC0 000038 (v00 PRLS   PRLS_OEM 00000001 INTL 20051216)
+12:23:07,932 INFO kernel:ACPI: MCFG 0x00000000AFFF2D00 00003C (v01 PRLS   PRLS_OEM 00000001 INTL 20051216)
+12:23:07,932 INFO kernel:ACPI: OEM1 0x00000000AFFF2DC0 000394 (v01 PRLS   PRLS_OEM 00000001 INTL 20051216)
+12:23:07,932 INFO kernel:No NUMA configuration found
+12:23:07,932 INFO kernel:Faking a node at [mem 0x0000000000000000-0x000000014fffffff]
+12:23:07,932 INFO kernel:NODE_DATA(0) allocated [mem 0x14ffd6000-0x14fffffff]
+12:23:07,932 INFO kernel:Zone ranges:
+12:23:07,932 INFO kernel:  DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+12:23:07,932 INFO kernel:  DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+12:23:07,932 INFO kernel:  Normal   [mem 0x0000000100000000-0x000000014fffffff]
+12:23:07,932 INFO kernel:  Device   empty
+12:23:07,932 INFO kernel:Movable zone start for each node
+12:23:07,932 INFO kernel:Early memory node ranges
+12:23:07,932 INFO kernel:  node   0: [mem 0x0000000000001000-0x000000000009efff]
+12:23:07,932 INFO kernel:  node   0: [mem 0x0000000000100000-0x00000000affebfff]
+12:23:07,932 INFO kernel:  node   0: [mem 0x0000000100000000-0x000000014fffffff]
+12:23:07,932 INFO kernel:Zeroed struct page in unavailable ranges: 118 pages
+12:23:07,932 INFO kernel:Initmem setup node 0 [mem 0x0000000000001000-0x000000014fffffff]
+12:23:07,932 INFO kernel:ACPI: PM-Timer IO Port: 0x4008
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x10] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x11] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x12] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x13] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x14] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x15] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x16] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x17] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x18] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x19] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x1a] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x1b] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x1c] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x1d] high edge lint[0x1])
+12:23:07,932 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x1e] high edge lint[0x1])
+12:23:07,933 INFO kernel:ACPI: LAPIC_NMI (acpi_id[0x1f] high edge lint[0x1])
+12:23:07,933 INFO kernel:IOAPIC[0]: apic_id 0, version 2, address 0xfec00000, GSI 0-23
+12:23:07,933 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+12:23:07,933 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 14 global_irq 14 dfl edge)
+12:23:07,933 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 15 global_irq 15 dfl edge)
+12:23:07,933 INFO kernel:Using ACPI (MADT) for SMP configuration information
+12:23:07,933 INFO kernel:ACPI: HPET id: 0x8086a701 base: 0xfed00000
+12:23:07,933 INFO kernel:smpboot: Allowing 32 CPUs, 30 hotplug CPUs
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0x000a0000-0x000dbfff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0x000dc000-0x000fffff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xaffec000-0xaffedfff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xaffee000-0xafffafff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xafffb000-0xafffffff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xb0000000-0xfebfffff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xfec01000-0xfecfffff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xfed00000-0xfed00fff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xfed01000-0xfed03fff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xfed04000-0xfed04fff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xfed05000-0xfedfffff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xfee01000-0xffbfffff]
+12:23:07,933 INFO kernel:PM: Registered nosave memory: [mem 0xffc00000-0xffffffff]
+12:23:07,933 INFO kernel:[mem 0xb0000000-0xfebfffff] available for PCI devices
+12:23:07,933 INFO kernel:Booting paravirtualized kernel on KVM
+12:23:07,933 INFO kernel:clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+12:23:07,933 INFO kernel:setup_percpu: NR_CPUS:8192 nr_cpumask_bits:32 nr_cpu_ids:32 nr_node_ids:1
+12:23:07,933 INFO kernel:percpu: Embedded 53 pages/cpu s180224 r8192 d28672 u262144
+12:23:07,933 INFO kernel:Built 1 zonelists, mobility grouping on.  Total pages: 1032053
+12:23:07,933 INFO kernel:Policy zone: Normal
+12:23:07,933 INFO kernel:Memory: 2884972K/4193832K available (12292K kernel code, 2151K rwdata, 3848K rodata, 2404K init, 6476K bss, 237208K reserved, 0K cma-reserved)
+12:23:07,933 INFO kernel:SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=32, Nodes=1
+12:23:07,933 INFO kernel:Kernel/User page tables isolation: enabled
+12:23:07,933 INFO kernel:ftrace: allocating 36334 entries in 142 pages
+12:23:07,933 INFO kernel:rcu: Hierarchical RCU implementation.
+12:23:07,933 INFO kernel:rcu: #011RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=32.
+12:23:07,933 INFO kernel:rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+12:23:07,933 INFO kernel:rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=32
+12:23:07,933 INFO kernel:NR_IRQS: 524544, nr_irqs: 680, preallocated irqs: 16
+12:23:07,933 INFO kernel:Console: colour VGA+ 80x25
+12:23:07,933 INFO kernel:printk: console [tty0] enabled
+12:23:07,933 INFO kernel:ACPI: Core revision 20190703
+12:23:07,933 INFO kernel:clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 119453777892 ns
+12:23:07,933 INFO kernel:APIC: Switch to symmetric I/O mode setup
+12:23:07,933 INFO kernel:x2apic enabled
+12:23:07,933 INFO kernel:Switched APIC routing to physical x2apic.
+12:23:07,933 INFO kernel:..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+12:23:07,933 INFO kernel:clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x22983777dd9, max_idle_ns: 440795300422 ns
+12:23:07,933 INFO kernel:Calibrating delay loop (skipped) preset value.. 4800.00 BogoMIPS (lpj=2400000)
+12:23:07,933 INFO kernel:pid_max: default: 32768 minimum: 301
+12:23:07,933 INFO kernel:Security Framework initialized
+12:23:07,933 INFO kernel:Yama: becoming mindful.
+12:23:07,933 INFO kernel:SELinux:  Initializing.
+12:23:07,933 INFO kernel:Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+12:23:07,933 INFO kernel:Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+12:23:07,933 INFO kernel:Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+12:23:07,933 INFO kernel:Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+12:23:07,933 INFO kernel:Disabled fast string operations
+12:23:07,933 INFO kernel:Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+12:23:07,933 INFO kernel:Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+12:23:07,933 INFO kernel:FEATURE SPEC_CTRL Not Present
+12:23:07,933 INFO kernel:FEATURE IBPB_SUPPORT Not Present
+12:23:07,933 INFO kernel:Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+12:23:07,933 INFO kernel:Spectre V2 : Mitigation: Full generic retpoline
+12:23:07,933 INFO kernel:Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+12:23:07,933 INFO kernel:Speculative Store Bypass: Vulnerable
+12:23:07,933 INFO kernel:MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+12:23:07,933 INFO kernel:Freeing SMP alternatives memory: 32K
+12:23:07,933 INFO kernel:smpboot: CPU0: Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz (family: 0x6, model: 0x9e, stepping: 0xd)
+12:23:07,933 INFO kernel:Performance Events: unsupported p6 CPU model 158 no PMU driver, software events only.
+12:23:07,933 INFO kernel:rcu: Hierarchical SRCU implementation.
+12:23:07,933 INFO kernel:NMI watchdog: Perf NMI watchdog permanently disabled
+12:23:07,933 INFO kernel:smp: Bringing up secondary CPUs ...
+12:23:07,933 INFO kernel:x86: Booting SMP configuration:
+12:23:07,933 INFO kernel:.... node  #0, CPUs:        #1
+12:23:07,933 INFO kernel:kvm-clock: cpu 1, msr 11a201041, secondary cpu clock
+12:23:07,933 INFO kernel:Disabled fast string operations
+12:23:07,933 INFO kernel:smp: Brought up 1 node, 2 CPUs
+12:23:07,933 INFO kernel:smpboot: Max logical packages: 16
+12:23:07,933 INFO kernel:smpboot: Total of 2 processors activated (9600.00 BogoMIPS)
+12:23:07,933 INFO kernel:node 0 initialised, 267913 pages in 1ms
+12:23:07,933 INFO kernel:devtmpfs: initialized
+12:23:07,933 INFO kernel:x86/mm: Memory block size: 128MB
+12:23:07,933 INFO kernel:PM: Registering ACPI NVS region [mem 0xafffb000-0xafffffff] (20480 bytes)
+12:23:07,933 INFO kernel:clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+12:23:07,933 INFO kernel:futex hash table entries: 8192 (order: 7, 524288 bytes)
+12:23:07,933 INFO kernel:pinctrl core: initialized pinctrl subsystem
+12:23:07,933 INFO kernel:NET: Registered protocol family 16
+12:23:07,933 INFO kernel:audit: initializing netlink subsys (disabled)
+12:23:07,933 INFO kernel:cpuidle: using governor menu
+12:23:07,933 INFO kernel:ACPI: bus type PCI registered
+12:23:07,933 INFO kernel:acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+12:23:07,933 INFO kernel:PCI: MMCONFIG for domain 0000 [bus 00-0f] at [mem 0xfc000000-0xfcffffff] (base 0xfc000000)
+12:23:07,933 INFO kernel:PCI: not using MMCONFIG
+12:23:07,933 INFO kernel:PCI: Using configuration type 1 for base access
+12:23:07,933 INFO kernel:HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+12:23:07,933 INFO kernel:cryptd: max_cpu_qlen set to 1000
+12:23:07,933 INFO kernel:ACPI: Added _OSI(Module Device)
+12:23:07,933 INFO kernel:ACPI: Added _OSI(Processor Device)
+12:23:07,933 INFO kernel:ACPI: Added _OSI(3.0 _SCP Extensions)
+12:23:07,933 INFO kernel:ACPI: Added _OSI(Processor Aggregator Device)
+12:23:07,933 INFO kernel:ACPI: Added _OSI(Linux-Dell-Video)
+12:23:07,933 INFO kernel:ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+12:23:07,933 INFO kernel:ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+12:23:07,933 INFO kernel:ACPI: 1 ACPI AML tables successfully acquired and loaded
+12:23:07,933 INFO kernel:ACPI: EC: EC started
+12:23:07,933 INFO kernel:ACPI: EC: interrupt blocked
+12:23:07,933 INFO kernel:ACPI: \_SB_.PCI0.PX40.EC__: Used as first EC
+12:23:07,933 INFO kernel:ACPI: \_SB_.PCI0.PX40.EC__: GPE=0xa, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+12:23:07,933 INFO kernel:ACPI: \_SB_.PCI0.PX40.EC__: Boot DSDT EC used to handle transactions
+12:23:07,933 INFO kernel:ACPI: Interpreter enabled
+12:23:07,933 INFO kernel:ACPI: (supports S0 S3 S4 S5)
+12:23:07,933 INFO kernel:ACPI: Using IOAPIC for interrupt routing
+12:23:07,933 INFO kernel:PCI: MMCONFIG for domain 0000 [bus 00-0f] at [mem 0xfc000000-0xfcffffff] (base 0xfc000000)
+12:23:07,933 INFO kernel:PCI: MMCONFIG at [mem 0xfc000000-0xfcffffff] reserved in ACPI motherboard resources
+12:23:07,933 INFO kernel:PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+12:23:07,933 INFO kernel:ACPI: Enabled 3 GPEs in block 00 to 0F
+12:23:07,933 INFO kernel:ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-7f])
+12:23:07,933 INFO kernel:acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+12:23:07,933 INFO kernel:acpi PNP0A08:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+12:23:07,933 INFO kernel:acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-0f] only partially covers this bridge
+12:23:07,933 INFO kernel:acpi PNP0A08:00: ignoring host bridge window [mem 0x000d0000-0x000dffff window] (conflicts with Reserved [mem 0x000dc000-0x000fffff])
+12:23:07,933 INFO kernel:PCI host bridge to bus 0000:00
+12:23:07,934 INFO kernel:pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+12:23:07,934 INFO kernel:pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+12:23:07,934 INFO kernel:pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+12:23:07,934 INFO kernel:pci_bus 0000:00: root bus resource [mem 0x000c0000-0x000cffff window]
+12:23:07,934 INFO kernel:pci_bus 0000:00: root bus resource [mem 0xb0000000-0xfebfffff window]
+12:23:07,934 INFO kernel:pci_bus 0000:00: root bus resource [bus 00-7f]
+12:23:07,934 INFO kernel:pci 0000:00:00.0: [8086:29a0] type 00 class 0x060000
+12:23:07,934 INFO kernel:pci 0000:00:01.0: [8086:2981] type 01 class 0x060401
+12:23:07,934 INFO kernel:pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+12:23:07,934 INFO kernel:pci 0000:00:03.0: [1ab8:4000] type 00 class 0xff0000
+12:23:07,934 INFO kernel:pci 0000:00:03.0: reg 0x10: [io  0x8000-0x801f]
+12:23:07,934 INFO kernel:pci 0000:00:05.0: [1af4:1000] type 00 class 0x020000
+12:23:07,935 INFO kernel:pci 0000:00:05.0: reg 0x10: [io  0x8200-0x823f]
+12:23:07,935 INFO kernel:pci 0000:00:05.0: reg 0x14: [mem 0xee000000-0xee000fff]
+12:23:07,935 INFO kernel:pci 0000:00:0a.0: [1011:0022] type 01 class 0x060400
+12:23:07,935 INFO kernel:pci 0000:00:0e.0: [1af4:1002] type 00 class 0x050000
+12:23:07,935 INFO kernel:pci 0000:00:0e.0: reg 0x10: [io  0xb000-0xb01f]
+12:23:07,942 INFO kernel:pci 0000:00:1d.0: [8086:2658] type 00 class 0x0c0300
+12:23:07,942 INFO kernel:pci 0000:00:1d.0: reg 0x20: [io  0xb200-0xb21f]
+12:23:07,942 INFO kernel:pci 0000:00:1d.6: [1033:0194] type 00 class 0x0c0330
+12:23:07,942 INFO kernel:pci 0000:00:1d.6: reg 0x10: [mem 0xef100000-0xef100fff]
+12:23:07,942 INFO kernel:pci 0000:00:1d.7: [8086:265c] type 00 class 0x0c0320
+12:23:07,942 INFO kernel:pci 0000:00:1d.7: reg 0x10: [mem 0xef140000-0xef1403ff]
+12:23:07,943 INFO kernel:pci 0000:00:1e.0: [8086:244e] type 01 class 0x060400
+12:23:07,943 INFO kernel:pci 0000:00:1f.0: [8086:2810] type 00 class 0x060100
+12:23:07,943 INFO kernel:pci 0000:00:1f.0: quirk: [io  0x4000-0x407f] claimed by ICH6 ACPI/GPIO/TCO
+12:23:07,943 INFO kernel:pci 0000:00:1f.1: [8086:244b] type 00 class 0x010180
+12:23:07,943 INFO kernel:pci 0000:00:1f.1: reg 0x20: [io  0xe000-0xe00f]
+12:23:07,943 INFO kernel:pci 0000:00:1f.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+12:23:07,943 INFO kernel:pci 0000:00:1f.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+12:23:07,943 INFO kernel:pci 0000:00:1f.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+12:23:07,943 INFO kernel:pci 0000:00:1f.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+12:23:07,943 INFO kernel:pci 0000:00:1f.2: [8086:2821] type 00 class 0x010601
+12:23:07,943 INFO kernel:pci 0000:00:1f.2: reg 0x10: [io  0xe200-0xe207]
+12:23:07,943 INFO kernel:pci 0000:00:1f.2: reg 0x14: [io  0xe400-0xe403]
+12:23:07,943 INFO kernel:pci 0000:00:1f.2: reg 0x18: [io  0xe600-0xe607]
+12:23:07,944 INFO kernel:pci 0000:00:1f.2: reg 0x1c: [io  0xe800-0xe803]
+12:23:07,944 INFO kernel:pci 0000:00:1f.2: reg 0x20: [io  0xea00-0xea0f]
+12:23:07,944 INFO kernel:pci 0000:00:1f.2: reg 0x24: [mem 0xf0200000-0xf0201fff]
+12:23:07,944 INFO kernel:pci 0000:00:1f.2: PME# supported from D3hot
+12:23:07,944 INFO kernel:pci 0000:00:1f.3: [8086:283e] type 00 class 0x0c0500
+12:23:07,944 INFO kernel:pci 0000:00:1f.3: reg 0x10: [mem 0xf0240000-0xf0240fff]
+12:23:07,944 INFO kernel:pci 0000:00:1f.3: reg 0x20: [io  0xec00-0xec1f]
+12:23:07,944 INFO kernel:pci 0000:00:1f.4: [8086:2445] type 00 class 0x040100
+12:23:07,944 INFO kernel:pci 0000:00:1f.4: reg 0x10: [io  0xee00-0xeeff]
+12:23:07,944 INFO kernel:pci 0000:00:1f.4: reg 0x14: [io  0xf000-0xf0ff]
+12:23:07,944 INFO kernel:pci 0000:01:00.0: [1af4:1050] type 00 class 0x030000
+12:23:07,944 INFO kernel:pci 0000:01:00.0: reg 0x10: [mem 0xb0000000-0xbfffffff pref]
+12:23:07,945 INFO kernel:pci 0000:01:00.0: reg 0x14: [mem 0xe2000000-0xe2000fff]
+12:23:07,945 INFO kernel:pci 0000:01:00.0: reg 0x18: [io  0x6000-0x601f]
+12:23:07,945 INFO kernel:pci 0000:01:00.0: reg 0x20: [mem 0xe2040000-0xe2043fff]
+12:23:07,945 INFO kernel:pci 0000:01:00.0: reg 0x30: [mem 0xe2080000-0xe208ffff pref]
+12:23:07,945 INFO kernel:pci 0000:00:01.0: PCI bridge to [bus 01] (subtractive decode)
+12:23:07,945 INFO kernel:pci 0000:00:01.0:   bridge window [io  0x6000-0x7fff]
+12:23:07,945 INFO kernel:pci 0000:00:01.0:   bridge window [mem 0xe2000000-0xedffffff]
+12:23:07,945 INFO kernel:pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xdfffffff 64bit pref]
+12:23:07,945 INFO kernel:pci 0000:00:01.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+12:23:07,945 INFO kernel:pci 0000:00:01.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+12:23:07,945 INFO kernel:pci 0000:00:01.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+12:23:07,946 INFO kernel:pci 0000:00:01.0:   bridge window [mem 0x000c0000-0x000cffff window] (subtractive decode)
+12:23:07,946 INFO kernel:pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xfebfffff window] (subtractive decode)
+12:23:07,946 INFO kernel:pci_bus 0000:02: extended config space not accessible
+12:23:07,946 INFO kernel:pci 0000:00:0a.0: PCI bridge to [bus 02]
+12:23:07,946 INFO kernel:pci 0000:00:0a.0:   bridge window [io  0x9000-0xafff]
+12:23:07,946 INFO kernel:pci 0000:00:0a.0:   bridge window [mem 0xee100000-0xef0fffff]
+12:23:07,946 INFO kernel:pci 0000:00:0a.0:   bridge window [mem 0xe0000000-0xe0ffffff pref]
+12:23:07,952 INFO kernel:pci_bus 0000:03: extended config space not accessible
+12:23:07,952 INFO kernel:pci 0000:00:1e.0: PCI bridge to [bus 03] (subtractive decode)
+12:23:07,952 INFO kernel:pci 0000:00:1e.0:   bridge window [io  0xc000-0xdfff]
+12:23:07,952 INFO kernel:pci 0000:00:1e.0:   bridge window [mem 0xef200000-0xf01fffff]
+12:23:07,953 INFO kernel:pci 0000:00:1e.0:   bridge window [mem 0xe1000000-0xe1ffffff 64bit pref]
+12:23:07,953 INFO kernel:pci 0000:00:1e.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+12:23:07,953 INFO kernel:pci 0000:00:1e.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+12:23:07,953 INFO kernel:pci 0000:00:1e.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+12:23:07,953 INFO kernel:pci 0000:00:1e.0:   bridge window [mem 0x000c0000-0x000cffff window] (subtractive decode)
+12:23:07,953 INFO kernel:pci 0000:00:1e.0:   bridge window [mem 0xb0000000-0xfebfffff window] (subtractive decode)
+12:23:07,953 INFO kernel:ACPI: PCI Interrupt Link [LNKA] (IRQs) *0, disabled.
+12:23:07,953 INFO kernel:ACPI: EC: interrupt unblocked
+12:23:07,953 INFO kernel:ACPI: EC: event unblocked
+12:23:07,953 INFO kernel:ACPI: \_SB_.PCI0.PX40.EC__: GPE=0xa, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+12:23:07,953 INFO kernel:ACPI: \_SB_.PCI0.PX40.EC__: Boot DSDT EC used to handle transactions and events
+12:23:07,953 INFO kernel:iommu: Default domain type: Passthrough 
+12:23:07,953 INFO kernel:pci 0000:01:00.0: vgaarb: setting as boot VGA device
+12:23:07,953 INFO kernel:pci 0000:01:00.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+12:23:07,953 INFO kernel:pci 0000:01:00.0: vgaarb: bridge control possible
+12:23:07,953 INFO kernel:vgaarb: loaded
+12:23:07,953 INFO kernel:ACPI: bus type USB registered
+12:23:07,953 INFO kernel:usbcore: registered new interface driver usbfs
+12:23:07,953 INFO kernel:usbcore: registered new interface driver hub
+12:23:07,953 INFO kernel:usbcore: registered new device driver usb
+12:23:07,953 INFO kernel:pps_core: LinuxPPS API ver. 1 registered
+12:23:07,953 INFO kernel:pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+12:23:07,953 INFO kernel:PTP clock support registered
+12:23:07,953 INFO kernel:EDAC MC: Ver: 3.0.0
+12:23:07,953 INFO kernel:PCI: Using ACPI for IRQ routing
+12:23:07,953 INFO kernel:NetLabel: Initializing
+12:23:07,953 INFO kernel:NetLabel:  domain hash size = 128
+12:23:07,953 INFO kernel:NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+12:23:07,953 INFO kernel:NetLabel:  unlabeled traffic allowed by default
+12:23:07,953 INFO kernel:hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+12:23:07,953 INFO kernel:hpet0: 8 comparators, 64-bit 16.000000 MHz counter
+12:23:07,953 INFO kernel:clocksource: Switched to clocksource kvm-clock
+12:23:07,953 INFO kernel:VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+12:23:07,953 INFO kernel:pnp: PnP ACPI init
+12:23:07,954 INFO kernel:system 00:03: [mem 0xff000000-0xffffffff] could not be reserved
+12:23:07,954 INFO kernel:system 00:04: [io  0x04d0-0x04d1] has been reserved
+12:23:07,954 INFO kernel:system 00:04: [mem 0xfc000000-0xfcffffff] has been reserved
+12:23:07,954 INFO kernel:pnp: PnP ACPI: found 5 devices
+12:23:07,954 INFO kernel:clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+12:23:07,954 INFO kernel:pci 0000:00:01.0: PCI bridge to [bus 01]
+12:23:07,954 INFO kernel:pci 0000:00:01.0:   bridge window [io  0x6000-0x7fff]
+12:23:07,954 INFO kernel:pci 0000:00:01.0:   bridge window [mem 0xe2000000-0xedffffff]
+12:23:07,954 INFO kernel:pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xdfffffff 64bit pref]
+12:23:07,954 INFO kernel:pci 0000:00:0a.0: PCI bridge to [bus 02]
+12:23:07,954 INFO kernel:pci 0000:00:0a.0:   bridge window [io  0x9000-0xafff]
+12:23:07,954 INFO kernel:pci 0000:00:0a.0:   bridge window [mem 0xee100000-0xef0fffff]
+12:23:07,955 INFO kernel:pci 0000:00:0a.0:   bridge window [mem 0xe0000000-0xe0ffffff pref]
+12:23:07,955 INFO kernel:pci 0000:00:1e.0: PCI bridge to [bus 03]
+12:23:07,955 INFO kernel:pci 0000:00:1e.0:   bridge window [io  0xc000-0xdfff]
+12:23:07,955 INFO kernel:pci 0000:00:1e.0:   bridge window [mem 0xef200000-0xf01fffff]
+12:23:07,955 INFO kernel:pci 0000:00:1e.0:   bridge window [mem 0xe1000000-0xe1ffffff 64bit pref]
+12:23:07,955 INFO kernel:pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+12:23:07,955 INFO kernel:pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+12:23:07,955 INFO kernel:pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+12:23:07,955 INFO kernel:pci_bus 0000:00: resource 7 [mem 0x000c0000-0x000cffff window]
+12:23:07,955 INFO kernel:pci_bus 0000:00: resource 8 [mem 0xb0000000-0xfebfffff window]
+12:23:07,955 INFO kernel:pci_bus 0000:01: resource 0 [io  0x6000-0x7fff]
+12:23:07,955 INFO kernel:pci_bus 0000:01: resource 1 [mem 0xe2000000-0xedffffff]
+12:23:07,955 INFO kernel:pci_bus 0000:01: resource 2 [mem 0xb0000000-0xdfffffff 64bit pref]
+12:23:07,955 INFO kernel:pci_bus 0000:01: resource 4 [io  0x0000-0x0cf7 window]
+12:23:07,956 INFO kernel:pci_bus 0000:01: resource 5 [io  0x0d00-0xffff window]
+12:23:07,956 INFO kernel:pci_bus 0000:01: resource 6 [mem 0x000a0000-0x000bffff window]
+12:23:07,956 INFO kernel:pci_bus 0000:01: resource 7 [mem 0x000c0000-0x000cffff window]
+12:23:07,956 INFO kernel:pci_bus 0000:01: resource 8 [mem 0xb0000000-0xfebfffff window]
+12:23:07,956 INFO kernel:pci_bus 0000:02: resource 0 [io  0x9000-0xafff]
+12:23:07,956 INFO kernel:pci_bus 0000:02: resource 1 [mem 0xee100000-0xef0fffff]
+12:23:07,956 INFO kernel:pci_bus 0000:02: resource 2 [mem 0xe0000000-0xe0ffffff pref]
+12:23:07,956 INFO kernel:pci_bus 0000:03: resource 0 [io  0xc000-0xdfff]
+12:23:07,956 INFO kernel:pci_bus 0000:03: resource 1 [mem 0xef200000-0xf01fffff]
+12:23:07,956 INFO kernel:pci_bus 0000:03: resource 2 [mem 0xe1000000-0xe1ffffff 64bit pref]
+12:23:07,956 INFO kernel:pci_bus 0000:03: resource 4 [io  0x0000-0x0cf7 window]
+12:23:07,956 INFO kernel:pci_bus 0000:03: resource 5 [io  0x0d00-0xffff window]
+12:23:07,956 INFO kernel:pci_bus 0000:03: resource 6 [mem 0x000a0000-0x000bffff window]
+12:23:07,956 INFO kernel:pci_bus 0000:03: resource 7 [mem 0x000c0000-0x000cffff window]
+12:23:07,957 INFO kernel:pci_bus 0000:03: resource 8 [mem 0xb0000000-0xfebfffff window]
+12:23:07,957 INFO kernel:NET: Registered protocol family 2
+12:23:07,957 INFO kernel:tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes)
+12:23:07,957 INFO kernel:TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+12:23:07,957 INFO kernel:TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+12:23:07,957 INFO kernel:TCP: Hash tables configured (established 32768 bind 32768)
+12:23:07,957 INFO kernel:UDP hash table entries: 2048 (order: 4, 65536 bytes)
+12:23:07,957 INFO kernel:UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+12:23:07,957 INFO kernel:NET: Registered protocol family 1
+12:23:07,957 INFO kernel:NET: Registered protocol family 44
+12:23:07,957 INFO kernel:pci 0000:00:1d.0: quirk_usb_early_handoff+0x0/0x6c5 took 39272 usecs
+12:23:07,957 INFO kernel:pci 0000:01:00.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+12:23:07,957 INFO kernel:PCI: CLS 0 bytes, default 64
+12:23:07,957 INFO kernel:Unpacking initramfs...
+12:23:07,957 INFO kernel:Freeing initrd memory: 63592K
+12:23:07,957 INFO kernel:PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+12:23:07,957 INFO kernel:software IO TLB: mapped [mem 0xabfec000-0xaffec000] (64MB)
+12:23:07,957 INFO kernel:clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22983777dd9, max_idle_ns: 440795300422 ns
+12:23:07,957 INFO kernel:clocksource: Switched to clocksource tsc
+12:23:07,957 INFO kernel:workingset: timestamp_bits=36 max_order=20 bucket_order=0
+12:23:07,957 INFO kernel:zbud: loaded
+12:23:07,957 INFO kernel:pstore: using deflate compression
+12:23:07,957 INFO kernel:NET: Registered protocol family 38
+12:23:07,957 INFO kernel:Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+12:23:07,957 INFO kernel:io scheduler mq-deadline registered
+12:23:07,957 INFO kernel:io scheduler kyber registered
+12:23:07,957 INFO kernel:io scheduler bfq registered
+12:23:07,957 INFO kernel:atomic64_test: passed for x86-64 platform with CX8 and with SSE
+12:23:07,957 INFO kernel:shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+12:23:07,957 INFO kernel:ACPI: AC Adapter [ADP0] (off-line)
+12:23:07,957 INFO kernel:input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+12:23:07,957 INFO kernel:ACPI: Power Button [PWRF]
+12:23:07,957 INFO kernel:input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+12:23:07,957 INFO kernel:ACPI: Sleep Button [SLPF]
+12:23:07,964 INFO kernel:virtio-pci 0000:00:05.0: virtio_pci: leaving for legacy driver
+12:23:07,964 INFO kernel:virtio-pci 0000:00:0e.0: virtio_pci: leaving for legacy driver
+12:23:07,964 INFO kernel:Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+12:23:07,964 INFO kernel:Non-volatile memory driver v1.3
+12:23:07,964 INFO kernel:rdac: device handler registered
+12:23:07,964 INFO kernel:hp_sw: device handler registered
+12:23:07,964 INFO kernel:emc: device handler registered
+12:23:07,964 INFO kernel:alua: device handler registered
+12:23:07,964 INFO kernel:libphy: Fixed MDIO Bus: probed
+12:23:07,964 INFO kernel:ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+12:23:07,964 INFO kernel:ehci-pci: EHCI PCI platform driver
+12:23:07,964 INFO kernel:ehci-pci 0000:00:1d.7: EHCI Host Controller
+12:23:07,964 INFO kernel:ehci-pci 0000:00:1d.7: new USB bus registered, assigned bus number 1
+12:23:07,965 INFO kernel:ehci-pci 0000:00:1d.7: cache line size of 64 is not supported
+12:23:07,965 INFO kernel:ehci-pci 0000:00:1d.7: irq 19, io mem 0xef140000
+12:23:07,965 INFO kernel:ehci-pci 0000:00:1d.7: USB 2.0 started, EHCI 1.00
+12:23:07,965 INFO kernel:usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.18
+12:23:07,965 INFO kernel:usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+12:23:07,965 INFO kernel:usb usb1: Product: EHCI Host Controller
+12:23:07,965 INFO kernel:usb usb1: Manufacturer: Linux 4.18.0-193.el8.x86_64 ehci_hcd
+12:23:07,965 INFO kernel:usb usb1: SerialNumber: 0000:00:1d.7
+12:23:07,965 INFO kernel:hub 1-0:1.0: USB hub found
+12:23:07,965 INFO kernel:hub 1-0:1.0: 15 ports detected
+12:23:07,965 INFO kernel:ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+12:23:07,965 INFO kernel:ohci-pci: OHCI PCI platform driver
+12:23:07,965 INFO kernel:uhci_hcd: USB Universal Host Controller Interface driver
+12:23:07,965 INFO kernel:uhci_hcd 0000:00:1d.0: UHCI Host Controller
+12:23:07,966 INFO kernel:uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 2
+12:23:07,966 INFO kernel:uhci_hcd 0000:00:1d.0: detected 2 ports
+12:23:07,966 INFO kernel:uhci_hcd 0000:00:1d.0: irq 18, io base 0x0000b200
+12:23:07,966 INFO kernel:usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.18
+12:23:07,966 INFO kernel:usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+12:23:07,966 INFO kernel:usb usb2: Product: UHCI Host Controller
+12:23:07,966 INFO kernel:usb usb2: Manufacturer: Linux 4.18.0-193.el8.x86_64 uhci_hcd
+12:23:07,966 INFO kernel:usb usb2: SerialNumber: 0000:00:1d.0
+12:23:07,966 INFO kernel:hub 2-0:1.0: USB hub found
+12:23:07,966 INFO kernel:hub 2-0:1.0: 2 ports detected
+12:23:07,966 INFO kernel:xhci_hcd 0000:00:1d.6: xHCI Host Controller
+12:23:07,967 INFO kernel:xhci_hcd 0000:00:1d.6: new USB bus registered, assigned bus number 3
+12:23:07,967 INFO kernel:xhci_hcd 0000:00:1d.6: hcc params 0x01c15001 hci version 0x100 quirks 0x0000000000000014
+12:23:07,967 INFO kernel:xhci_hcd 0000:00:1d.6: cache line size of 64 is not supported
+12:23:07,967 INFO kernel:usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.18
+12:23:07,967 INFO kernel:usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+12:23:07,967 INFO kernel:usb usb3: Product: xHCI Host Controller
+12:23:07,967 INFO kernel:usb usb3: Manufacturer: Linux 4.18.0-193.el8.x86_64 xhci-hcd
+12:23:07,967 INFO kernel:usb usb3: SerialNumber: 0000:00:1d.6
+12:23:07,967 INFO kernel:hub 3-0:1.0: USB hub found
+12:23:07,967 INFO kernel:hub 3-0:1.0: 2 ports detected
+12:23:07,967 INFO kernel:xhci_hcd 0000:00:1d.6: xHCI Host Controller
+12:23:07,968 INFO kernel:xhci_hcd 0000:00:1d.6: new USB bus registered, assigned bus number 4
+12:23:07,968 INFO kernel:xhci_hcd 0000:00:1d.6: Host supports USB 3.0  SuperSpeed
+12:23:07,968 INFO kernel:usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+12:23:07,968 INFO kernel:usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 4.18
+12:23:07,968 INFO kernel:usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+12:23:07,968 INFO kernel:usb usb4: Product: xHCI Host Controller
+12:23:07,968 INFO kernel:usb usb4: Manufacturer: Linux 4.18.0-193.el8.x86_64 xhci-hcd
+12:23:07,972 INFO kernel:usb usb4: SerialNumber: 0000:00:1d.6
+12:23:07,972 INFO kernel:hub 4-0:1.0: USB hub found
+12:23:07,972 INFO kernel:hub 4-0:1.0: 12 ports detected
+12:23:07,972 INFO kernel:usbcore: registered new interface driver usbserial_generic
+12:23:07,972 INFO kernel:usbserial: USB Serial support registered for generic
+12:23:07,972 INFO kernel:i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+12:23:07,972 INFO kernel:serio: i8042 KBD port at 0x60,0x64 irq 1
+12:23:07,972 INFO kernel:serio: i8042 AUX port at 0x60,0x64 irq 12
+12:23:07,972 INFO kernel:mousedev: PS/2 mouse device common for all mice
+12:23:07,972 INFO kernel:input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+12:23:07,972 INFO kernel:rtc_cmos 00:02: registered as rtc0
+12:23:07,972 INFO kernel:rtc_cmos 00:02: alarms up to one day, y3k, 242 bytes nvram, hpet irqs
+12:23:07,972 INFO kernel:intel_pstate: CPU model not supported
+12:23:07,972 INFO kernel:hidraw: raw HID events driver (C) Jiri Kosina
+12:23:07,972 INFO kernel:usbcore: registered new interface driver usbhid
+12:23:07,972 INFO kernel:usbhid: USB HID core driver
+12:23:07,972 INFO kernel:drop_monitor: Initializing network drop monitor service
+12:23:07,972 INFO kernel:Initializing XFRM netlink socket
+12:23:07,972 INFO kernel:NET: Registered protocol family 10
+12:23:07,972 INFO kernel:Segment Routing with IPv6
+12:23:07,972 INFO kernel:NET: Registered protocol family 17
+12:23:07,972 INFO kernel:mpls_gso: MPLS GSO support
+12:23:07,972 INFO kernel:core: Using 0 MCE banks
+12:23:07,972 INFO kernel:AVX2 version of gcm_enc/dec engaged.
+12:23:07,972 INFO kernel:AES CTR mode by8 optimization enabled
+12:23:07,972 INFO kernel:sched_clock: Marking stable (4303848941, 0)->(4499707984, -195859043)
+12:23:07,972 INFO kernel:registered taskstats version 1
+12:23:07,972 INFO kernel:zswap: loaded using pool lzo/zbud
+12:23:07,972 INFO kernel:ima: No TPM chip found, activating TPM-bypass!
+12:23:07,972 INFO kernel:ima: Allocated hash algorithm: sha1
+12:23:07,972 INFO kernel:evm: Initialising EVM extended attributes:
+12:23:07,972 INFO kernel:evm: security.selinux
+12:23:07,972 INFO kernel:evm: security.ima
+12:23:07,972 INFO kernel:evm: security.capability
+12:23:07,972 INFO kernel:evm: HMAC attrs: 0x1
+12:23:07,973 INFO kernel:rtc_cmos 00:02: setting system clock to 2020-08-07 12:23:07 UTC (1596802987)
+12:23:07,973 INFO kernel:battery: ACPI: Battery Slot [BAT0] (battery present)
+12:23:07,973 INFO kernel:Freeing unused decrypted memory: 2040K
+12:23:07,973 INFO kernel:Freeing unused kernel memory: 2404K
+12:23:07,973 INFO kernel:Write protecting the kernel read-only data: 18432k
+12:23:07,973 INFO kernel:Freeing unused kernel memory: 2020K
+12:23:07,973 INFO kernel:Freeing unused kernel memory: 248K
+12:23:07,973 INFO systemd:systemd 239 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=legacy)
+12:23:07,973 INFO systemd:Detected virtualization kvm.
+12:23:07,973 INFO systemd:Detected architecture x86-64.
+12:23:07,973 INFO systemd:Running in initial RAM disk.
+12:23:07,973 INFO systemd:No hostname configured.
+12:23:07,973 INFO systemd:Set hostname to <localhost>.
+12:23:07,973 INFO systemd:Initializing machine ID from KVM UUID.
+12:23:07,973 INFO systemd:Reached target Slices.
+12:23:07,973 INFO systemd:Reached target Initrd Root Device.
+12:23:07,973 INFO systemd:Listening on Open-iSCSI iscsid Socket.
+12:23:07,973 INFO kernel:Loading iSCSI transport class v2.0-870.
+12:23:07,973 INFO kernel:usb 2-1: new full-speed USB device number 2 using uhci_hcd
+12:23:07,973 INFO kernel:usb 4-1: new SuperSpeed Gen 1 USB device number 2 using xhci_hcd
+12:23:07,973 INFO kernel:usb 4-1: LPM exit latency is zeroed, disabling LPM.
+12:23:07,973 INFO kernel:usb 4-1: New USB device found, idVendor=203a, idProduct=fff9, bcdDevice= 1.00
+12:23:07,973 INFO kernel:usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+12:23:07,973 INFO kernel:usb 4-1: Product: FaceTime HD Camera (Built-in)
+12:23:07,973 INFO kernel:usb 4-1: Manufacturer: Parallels
+12:23:07,974 INFO kernel:usb 4-1: SerialNumber: 0x8020000005ac8514
+12:23:07,974 INFO kernel:usb 2-1: New USB device found, idVendor=203a, idProduct=fffc, bcdDevice= 1.00
+12:23:07,974 INFO kernel:usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+12:23:07,974 INFO kernel:usb 2-1: Product: Virtual Mouse
+12:23:07,974 INFO kernel:usb 2-1: Manufacturer: Parallels
+12:23:07,974 INFO kernel:usb 2-1: SerialNumber: PW3.0
+12:23:07,974 INFO kernel:input: Parallels Virtual Mouse as /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1:1.0/0003:203A:FFFC.0001/input/input5
+12:23:07,974 INFO kernel:hid-generic 0003:203A:FFFC.0001: input,hidraw0: USB HID v1.10 Mouse [Parallels Virtual Mouse] on usb-0000:00:1d.0-1/input0
+12:23:07,974 INFO kernel:input: Parallels Virtual Mouse as /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1:1.1/0003:203A:FFFC.0002/input/input6
+12:23:07,974 INFO kernel:hid-generic 0003:203A:FFFC.0002: input,hidraw1: USB HID v1.10 Mouse [Parallels Virtual Mouse] on usb-0000:00:1d.0-1/input1
+12:23:07,974 INFO systemd-journald:Journal started
+12:23:07,974 INFO systemd-journald:Runtime journal (/run/log/journal/465267a122c2dd41a8a89da8ba435f2e) is 8.0M, max 196.6M, 188.6M free.
+12:23:07,977 INFO rngd:Initializing available sources
+12:23:07,977 INFO rngd:Failed to init entropy source hwrng
+12:23:07,977 INFO rngd:Enabling RDSEED rng support
+12:23:07,977 INFO rngd:Initializing entropy source rdrand
+12:23:07,978 INFO dracut-cmdline:dracut-8 (Core) dracut-049-70.git20200228.el8
+12:23:07,978 INFO dracut-cmdline:Using kernel command line parameters: BOOT_IMAGE=vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS-8-2-2004-x86_64-dvd quiet
+12:23:07,989 INFO kernel:BIOS EDD facility v0.16 2004-Jun-25, 1 devices found
+12:23:08,154 INFO dracut-cmdline:Loading CentOS Linux 8 x86_64 installer...
+12:23:08,289 INFO kernel:input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+12:23:08,763 INFO dracut-cmdline:rd.luks=0: removing cryptoluks activation
+12:23:08,890 INFO dracut-cmdline:rd.lvm=0: removing LVM activation
+12:23:09,064 INFO kernel:QLogic iSCSI HBA Driver
+12:23:09,072 INFO kernel:libcxgbi:libcxgbi_init_module: Chelsio iSCSI driver library libcxgbi v0.9.1-ko (Apr. 2015)
+12:23:09,115 INFO kernel:Chelsio T4-T6 iSCSI Driver cxgb4i v0.9.5-ko (Apr. 2015)
+12:23:09,130 INFO kernel:cnic: QLogic cnicDriver v2.5.22 (July 20, 2015)
+12:23:09,146 INFO kernel:QLogic NetXtreme II iSCSI Driver bnx2i v2.7.10.1 (Jul 16, 2014)
+12:23:09,171 INFO kernel:In beiscsi_module_init, tt=00000000246e50f2
+12:23:09,374 INFO rngd:Initializing AES buffer
+12:23:09,374 INFO rngd:Enabling JITTER rng support
+12:23:09,374 INFO rngd:Initializing entropy source jitter
+12:23:09,400 INFO systemd:Started dracut cmdline hook.
+12:23:09,400 INFO systemd:Starting dracut pre-udev hook...
+12:23:09,653 INFO kernel:squashfs: version 4.0 (2009/01/31) Phillip Lougher
+12:23:09,760 INFO dracut-pre-udev:modprobe: FATAL: Module floppy not found in directory /lib/modules/4.18.0-193.el8.x86_64
+12:23:09,867 INFO kernel:No iBFT detected.
+12:23:10,103 INFO kernel:raid6: sse2x1   gen() 10851 MB/s
+12:23:10,103 INFO kernel:raid6: sse2x1   xor()  7220 MB/s
+12:23:10,115 INFO kernel:raid6: sse2x2   gen() 10691 MB/s
+12:23:10,132 INFO kernel:raid6: sse2x2   xor()  8279 MB/s
+12:23:10,149 INFO kernel:raid6: sse2x4   gen() 13039 MB/s
+12:23:10,167 INFO kernel:raid6: sse2x4   xor()  8734 MB/s
+12:23:10,184 INFO kernel:raid6: avx2x1   gen() 25714 MB/s
+12:23:10,200 INFO kernel:raid6: avx2x1   xor() 20078 MB/s
+12:23:10,218 INFO kernel:raid6: avx2x2   gen() 29429 MB/s
+12:23:10,235 INFO kernel:raid6: avx2x2   xor() 16773 MB/s
+12:23:10,251 INFO kernel:raid6: avx2x4   gen() 38464 MB/s
+12:23:10,268 INFO kernel:raid6: avx2x4   xor() 20169 MB/s
+12:23:10,268 INFO kernel:raid6: using algorithm avx2x4 gen() 38464 MB/s
+12:23:10,268 INFO kernel:raid6: .... xor() 20169 MB/s, rmw enabled
+12:23:10,268 INFO kernel:raid6: using avx2x2 recovery algorithm
+12:23:10,477 INFO kernel:async_tx: api initialized (async)
+12:23:10,484 INFO kernel:xor: automatically using best checksumming function   avx       
+12:23:10,795 INFO kernel:device-mapper: uevent: version 1.0.3
+12:23:10,796 INFO kernel:device-mapper: ioctl: 4.39.0-ioctl (2018-04-03) initialised: dm-devel@redhat.com
+12:23:11,090 INFO kernel:device-mapper: multipath round-robin: version 1.2.0 loaded
+12:23:11,471 INFO kernel:RPC: Registered named UNIX socket transport module.
+12:23:11,471 INFO kernel:RPC: Registered udp transport module.
+12:23:11,471 INFO kernel:RPC: Registered tcp transport module.
+12:23:11,471 INFO kernel:RPC: Registered tcp NFSv4.1 backchannel transport module.
+12:23:11,533 INFO systemd:Started dracut pre-udev hook.
+12:23:11,533 INFO systemd:Starting udev Kernel Device Manager...
+12:23:11,682 INFO systemd:Started udev Kernel Device Manager.
+12:23:11,682 INFO systemd:Starting dracut pre-trigger hook...
+12:23:11,699 INFO lldpad:config file failed to load,
+12:23:11,699 INFO lldpad:create a new file.
+12:23:11,699 INFO lldpad:bound ctrl iface to /com/intel/lldpad
+12:23:11,703 INFO dracut-pre-trigger:829
+12:23:11,709 INFO dracut-pre-trigger:rd.md=0: removing MD RAID activation
+12:23:11,759 INFO systemd:Started dracut pre-trigger hook.
+12:23:11,760 INFO systemd:Starting udev Coldplug all Devices...
+12:23:11,794 INFO systemd:Mounting Kernel Configuration File System...
+12:23:11,801 INFO systemd:Mounted Kernel Configuration File System.
+12:23:11,867 INFO systemd:Started udev Coldplug all Devices.
+12:23:11,867 INFO systemd:Starting udev Wait for Complete Device Initialization...
+12:23:11,867 INFO systemd:Starting Show Plymouth Boot Screen...
+12:23:11,905 INFO systemd:Received SIGRTMIN+20 from PID 920 (plymouthd).
+12:23:11,906 INFO systemd:Started Show Plymouth Boot Screen.
+12:23:11,906 INFO systemd:Started Forward Password Requests to Plymouth Directory Watch.
+12:23:11,906 INFO systemd:Reached target Paths.
+12:23:11,906 INFO systemd:Reached target Local Encrypted Volumes.
+12:23:11,936 INFO kernel:8021q: 802.1Q VLAN Support v1.8
+12:23:11,944 INFO systemd-udevd:link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+12:23:11,962 INFO systemd-udevd:link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+12:23:11,962 INFO kernel:virtio_net virtio0 enp0s5: renamed from eth0
+12:23:11,972 INFO kernel:ahci 0000:00:1f.2: SSS flag set, parallel bus scan disabled
+12:23:11,972 INFO kernel:ahci 0000:00:1f.2: AHCI 0001.0100 32 slots 6 ports 3 Gbps 0x3f impl SATA mode
+12:23:11,972 INFO kernel:ahci 0000:00:1f.2: flags: 64bit ncq stag pm led only slum part 
+12:23:11,973 INFO kernel:scsi host0: ata_piix
+12:23:11,975 INFO kernel:[drm] pci: virtio-vga detected at 0000:01:00.0
+12:23:11,975 INFO kernel:virtio-pci 0000:01:00.0: vgaarb: deactivate vga console
+12:23:11,975 INFO kernel:Console: switching to colour dummy device 80x25
+12:23:11,975 INFO kernel:[drm] virgl 3d acceleration not supported by host
+12:23:11,978 INFO kernel:scsi host2: ahci
+12:23:11,978 INFO kernel:[TTM] Zone  kernel: Available graphics memory: 2013480 KiB
+12:23:11,978 INFO kernel:[TTM] Initializing pool allocator
+12:23:11,978 INFO kernel:[TTM] Initializing DMA pool allocator
+12:23:11,978 INFO kernel:[drm] number of scanouts: 1
+12:23:11,978 INFO kernel:[drm] number of cap sets: 0
+12:23:11,978 INFO kernel:[drm] Initialized virtio_gpu 0.1.0 0 for virtio2 on minor 0
+12:23:11,983 INFO kernel:Console: switching to colour frame buffer device 128x48
+12:23:11,983 INFO kernel:virtio_gpu virtio2: fb0: virtio_gpudrmfb frame buffer device
+12:23:11,984 INFO kernel:scsi host1: ata_piix
+12:23:11,984 INFO kernel:ata1: PATA max UDMA/100 cmd 0x1f0 ctl 0x3f6 bmdma 0xe000 irq 14
+12:23:11,984 INFO kernel:ata2: PATA max UDMA/100 cmd 0x170 ctl 0x376 bmdma 0xe008 irq 15
+12:23:11,988 INFO kernel:scsi host3: ahci
+12:23:11,988 INFO kernel:scsi host4: ahci
+12:23:11,988 INFO kernel:scsi host5: ahci
+12:23:11,988 INFO kernel:scsi host6: ahci
+12:23:11,990 INFO kernel:scsi host7: ahci
+12:23:11,990 INFO kernel:ata3: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200100 irq 29
+12:23:11,990 INFO kernel:ata4: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200180 irq 29
+12:23:11,990 INFO kernel:ata5: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200200 irq 29
+12:23:11,990 INFO kernel:ata6: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200280 irq 29
+12:23:11,990 INFO kernel:ata7: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200300 irq 29
+12:23:11,990 INFO kernel:ata8: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200380 irq 29
+12:23:12,296 INFO kernel:ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+12:23:12,296 INFO kernel:ata3.00: ATA-8: CentOS Linux 8-0 SSD, F.KHHZAR, max UDMA/100
+12:23:12,296 INFO kernel:ata3.00: 134217728 sectors, multi 0: LBA48 NCQ (depth 32)
+12:23:12,296 INFO kernel:ata3.00: configured for UDMA/100
+12:23:12,609 INFO kernel:ata4: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+12:23:12,609 INFO kernel:ata4.00: ATAPI: Virtual DVD-ROM [1], FWR1, max UDMA/25
+12:23:12,609 INFO kernel:ata4.00: configured for UDMA/25
+12:23:12,935 INFO kernel:ata5: SATA link down (SStatus 0 SControl 300)
+12:23:13,246 INFO kernel:ata6: SATA link down (SStatus 0 SControl 300)
+12:23:13,561 INFO kernel:ata7: SATA link down (SStatus 0 SControl 300)
+12:23:13,876 INFO kernel:ata8: SATA link down (SStatus 0 SControl 300)
+12:23:13,892 INFO kernel:sr 3:0:0:0: [sr0] scsi3-mmc drive: 44x/44x cd/rw xa/form2 cdda tray
+12:23:13,892 INFO kernel:cdrom: Uniform CD-ROM driver Revision: 3.20
+12:23:13,969 INFO systemd:Started udev Wait for Complete Device Initialization.
+12:23:13,969 INFO systemd:Starting Device-Mapper Multipath Device Controller...
+12:23:13,973 INFO systemd:Started Device-Mapper Multipath Device Controller.
+12:23:13,973 INFO systemd:Starting Open-iSCSI...
+12:23:13,973 INFO systemd:Reached target Local File Systems (Pre).
+12:23:13,973 INFO systemd:Reached target Local File Systems.
+12:23:13,973 INFO systemd:Starting Create Volatile Files and Directories...
+12:23:13,979 INFO multipathd:--------start up--------
+12:23:13,980 INFO multipathd:read /etc/multipath.conf
+12:23:13,982 INFO multipathd:path checkers start up
+12:23:13,986 INFO systemd:Started Create Volatile Files and Directories.
+12:23:13,986 INFO systemd:Reached target System Initialization.
+12:23:13,986 INFO systemd:Reached target Basic System.
+12:23:13,987 INFO iscsid:iscsid: can't open InitiatorName configuration file /etc/iscsi/initiatorname.iscsi
+12:23:13,987 INFO iscsid:iscsid: Warning: InitiatorName file /etc/iscsi/initiatorname.iscsi does not exist or does not contain a properly formatted InitiatorName. If using software iscsi (iscsi_tcp or ib_iser) or partial offload (bnx2i or cxgbi iscsi), you may not be able to log into or discover targets. Please create a file /etc/iscsi/initiatorname.iscsi that contains a sting with the format: InitiatorName=iqn.yyyy-mm.<reversed domain name>[:identifier].
+12:23:13,987 INFO iscsid:Example: InitiatorName=iqn.2001-04.com.redhat:fc6.
+12:23:13,987 INFO iscsid:If using hardware iscsi like qla4xxx this message can be ignored.
+12:23:13,987 INFO iscsid:iscsid: can't open InitiatorAlias configuration file /etc/iscsi/initiatorname.iscsi
+12:23:13,989 INFO systemd:Started Open-iSCSI.
+12:23:13,989 INFO systemd:Starting dracut initqueue hook...
+12:23:14,016 INFO systemd:Reloading.
+12:23:14,119 INFO dracut-initqueue:anaconda using disk root at /dev/sr0
+12:23:14,168 INFO dracut-initqueue:mount: /run/install/repo: WARNING: device write-protected, mounted read-only.
+12:23:14,194 INFO dracut-initqueue:anaconda: found /run/install/repo//images/install.img
+12:23:14,254 INFO kernel:loop: module loaded
+12:23:14,388 INFO systemd:Started dracut initqueue hook.
+12:23:14,388 INFO systemd:Reached target Remote File Systems (Pre).
+12:23:14,388 INFO systemd:Reached target Remote File Systems.
+12:23:14,388 INFO systemd:Starting dracut pre-mount hook...
+12:23:14,399 INFO systemd:Started dracut pre-mount hook.
+12:23:14,399 INFO systemd:Reached target Initrd Root File System.
+12:23:14,399 INFO systemd:Starting Reload Configuration from the Real Root...
+12:23:14,405 INFO systemd:Reloading.
+12:23:14,474 INFO systemd:Started Reload Configuration from the Real Root.
+12:23:14,474 INFO systemd:Starting dracut mount hook...
+12:23:14,474 INFO systemd:Reached target Initrd File Systems.
+12:23:14,474 INFO systemd:Reached target Initrd Default Target.
+12:23:14,537 INFO kernel:EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+12:23:14,554 INFO systemd:Started dracut mount hook.
+12:23:14,555 INFO systemd:Starting dracut pre-pivot and cleanup hook...
+12:23:14,754 INFO systemd:Started dracut pre-pivot and cleanup hook.
+12:23:14,754 INFO systemd:Starting Cleaning Up and Shutting Down Daemons...
+12:23:14,760 INFO systemd:Stopped dracut pre-pivot and cleanup hook.
+12:23:14,760 INFO systemd:Stopped target Remote File Systems.
+12:23:14,760 INFO systemd:Stopped target Remote File Systems (Pre).
+12:23:14,760 INFO systemd:Stopped dracut mount hook.
+12:23:14,760 INFO systemd:Stopped dracut pre-mount hook.
+12:23:14,761 INFO systemd:Stopped dracut initqueue hook.
+12:23:14,761 INFO systemd:Starting Setup Virtual Console...
+12:23:14,763 INFO systemd:Stopping Open-iSCSI...
+12:23:14,763 INFO iscsid:iscsid: iscsid shutting down.
+12:23:14,763 INFO systemd:Starting Plymouth switch root service...
+12:23:14,763 INFO systemd:Stopped target Initrd Default Target.
+12:23:14,763 INFO systemd:Stopped target Basic System.
+12:23:14,763 INFO systemd:Stopped target System Initialization.
+12:23:14,763 INFO systemd:Stopped target Swap.
+12:23:14,763 INFO systemd:Stopped target Local Encrypted Volumes.
+12:23:14,763 INFO systemd:Stopped Apply Kernel Variables.
+12:23:14,763 INFO systemd:Stopped Create Volatile Files and Directories.
+12:23:14,763 INFO systemd:Stopped target Paths.
+12:23:14,763 INFO systemd:Stopped target Sockets.
+12:23:14,763 INFO systemd:Stopped target Initrd Root Device.
+12:23:14,763 INFO systemd:Stopped target Slices.
+12:23:14,767 INFO systemd:Stopped target Local File Systems.
+12:23:14,767 INFO systemd:Stopped target Local File Systems (Pre).
+12:23:14,767 INFO systemd:Stopped target Timers.
+12:23:14,768 INFO systemd:Stopped Open-iSCSI.
+12:23:14,770 INFO systemd:Started Cleaning Up and Shutting Down Daemons.
+12:23:14,771 INFO systemd:Stopping iSCSI UserSpace I/O driver...
+12:23:14,771 INFO systemd:Stopping Device-Mapper Multipath Device Controller...
+12:23:14,771 INFO systemd:Closed Open-iSCSI iscsid Socket.
+12:23:14,772 INFO systemd:Started Setup Virtual Console.
+12:23:14,773 INFO systemd:Stopped iSCSI UserSpace I/O driver.
+12:23:14,774 INFO systemd:Closed Open-iSCSI iscsiuio Socket.
+12:23:14,784 INFO multipathd:ok
+12:23:14,788 INFO multipathd:--------shut down-------
+12:23:14,792 INFO systemd:Stopped Device-Mapper Multipath Device Controller.
+12:23:14,792 INFO systemd:Stopped udev Wait for Complete Device Initialization.
+12:23:14,792 INFO systemd:Stopped udev Coldplug all Devices.
+12:23:14,792 INFO systemd:Stopped dracut pre-trigger hook.
+12:23:14,792 INFO systemd:Stopping udev Kernel Device Manager...
+12:23:14,793 INFO systemd:Stopped udev Kernel Device Manager.
+12:23:14,795 INFO systemd:Started Plymouth switch root service.
+12:23:14,797 INFO systemd:Stopped dracut pre-udev hook.
+12:23:14,799 INFO systemd:Stopped dracut cmdline hook.
+12:23:14,800 INFO systemd:Stopping Hardware RNG Entropy Gatherer Daemon...
+12:23:14,802 INFO systemd:Stopped Create Static Device Nodes in /dev.
+12:23:14,804 INFO systemd:Stopped Create list of required static device nodes for the current kernel.
+12:23:14,805 INFO systemd:Closed udev Kernel Socket.
+12:23:14,806 INFO systemd:Closed udev Control Socket.
+12:23:14,806 INFO systemd:Starting Cleanup udevd DB...
+12:23:14,809 INFO systemd:Stopped Hardware RNG Entropy Gatherer Daemon.
+12:23:14,812 INFO systemd:Started Cleanup udevd DB.
+12:23:14,813 INFO systemd:Reached target Switch Root.
+12:23:14,814 INFO systemd:Starting Switch Root...
+12:23:14,834 INFO systemd-journald:Journal stopped
+12:23:17,084 INFO systemd-journald:Received SIGTERM from PID 1 (systemd).
+12:23:17,084 INFO kernel:SELinux:  policy capability network_peer_controls=1
+12:23:17,084 INFO kernel:SELinux:  policy capability open_perms=1
+12:23:17,084 INFO kernel:SELinux:  policy capability extended_socket_class=1
+12:23:17,084 INFO kernel:SELinux:  policy capability always_check_network=0
+12:23:17,084 INFO kernel:SELinux:  policy capability cgroup_seclabel=1
+12:23:17,084 INFO kernel:SELinux:  policy capability nnp_nosuid_transition=1
+12:23:17,084 INFO systemd:Successfully loaded SELinux policy in 586.139ms.
+12:23:17,084 INFO systemd:Relabelled /dev, /run and /sys/fs/cgroup in 22.934ms.
+12:23:17,084 INFO systemd:systemd 239 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=legacy)
+12:23:17,084 INFO systemd:Detected virtualization kvm.
+12:23:17,085 INFO systemd:Detected architecture x86-64.
+12:23:17,085 INFO systemd:Stopped Switch Root.
+12:23:17,085 INFO systemd:systemd-journald.service: Service has no hold-off time (RestartSec=0), scheduling restart.
+12:23:17,085 INFO systemd:systemd-journald.service: Scheduled restart job, restart counter is at 1.
+12:23:17,085 INFO systemd:Stopped Journal Service.
+12:23:17,085 INFO systemd:Starting Journal Service...
+12:23:17,085 INFO systemd:Created slice User and Session Slice.
+12:23:17,085 INFO systemd:Listening on udev Control Socket.
+12:23:17,085 INFO systemd-journald:Journal started
+12:23:17,085 INFO systemd-journald:Runtime journal (/run/log/journal/29a73b67957744eba7491dcecbf54d50) is 8.0M, max 196.6M, 188.6M free.
+12:23:17,088 INFO systemd:Starting Flush Journal to Persistent Storage...
+12:23:17,102 INFO systemd-journald:Runtime journal (/run/log/journal/29a73b67957744eba7491dcecbf54d50) is 8.0M, max 196.6M, 188.6M free.
+12:23:17,107 INFO systemd:Started Flush Journal to Persistent Storage.
+12:23:17,117 INFO systemd:Started Rebuild Hardware Database.
+12:23:17,117 INFO systemd:Starting udev Kernel Device Manager...
+12:23:17,321 INFO systemd:Started udev Kernel Device Manager.
+12:23:17,444 INFO kernel:ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+12:23:17,458 INFO systemd-udevd:link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+12:23:17,500 INFO kernel:input: PC Speaker as /devices/platform/pcspkr/input/input7
+12:23:17,501 INFO kernel:i801_smbus 0000:00:1f.3: Enabling SMBus device
+12:23:17,501 INFO kernel:i801_smbus 0000:00:1f.3: SMBus using polling
+12:23:17,536 INFO kernel:RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+12:23:17,546 INFO systemd-udevd:link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+12:23:17,642 INFO kernel:gpio_ich: GPIO from 462 to 511 on gpio_ich
+12:23:17,678 INFO kernel:intel_pmc_core intel_pmc_core.0:  initialized
+12:23:17,724 INFO systemd:Started udev Wait for Complete Device Initialization.
+12:23:17,725 INFO systemd:Starting Device-Mapper Multipath Device Controller...
+12:23:17,830 INFO multipathd:--------start up--------
+12:23:17,830 INFO multipathd:read /etc/multipath.conf
+12:23:17,833 INFO multipathd:path checkers start up
+12:23:17,844 INFO systemd:Started Device-Mapper Multipath Device Controller.
+12:23:17,844 INFO systemd:Reached target Local File Systems (Pre).
+12:23:17,844 INFO systemd:Reached target Local File Systems.
+12:23:17,845 INFO systemd:Starting Import network configuration from initramfs...
+12:23:17,845 INFO systemd:Starting Rebuild Dynamic Linker Cache...
+12:23:17,846 INFO systemd:Starting Rebuild Journal Catalog...
+12:23:17,847 INFO systemd:Starting Tell Plymouth To Write Out Runtime Data...
+12:23:17,910 INFO systemd:Started Tell Plymouth To Write Out Runtime Data.
+12:23:17,913 INFO systemd:Started Rebuild Journal Catalog.
+12:23:17,960 INFO systemd:Started Import network configuration from initramfs.
+12:23:17,960 INFO systemd:Starting Create Volatile Files and Directories...
+12:23:18,008 INFO systemd:Started Create Volatile Files and Directories.
+12:23:18,008 INFO systemd:Starting Update UTMP about System Boot/Shutdown...
+12:23:18,021 INFO systemd:Started Update UTMP about System Boot/Shutdown.
+12:23:19,652 INFO systemd:Started Rebuild Dynamic Linker Cache.
+12:23:19,652 INFO systemd:Starting Update is Completed...
+12:23:19,668 INFO systemd:Started Update is Completed.
+12:23:19,668 INFO systemd:Reached target System Initialization.
+12:23:19,668 INFO systemd:Listening on Open-iSCSI iscsiuio Socket.
+12:23:19,668 INFO systemd:Listening on D-Bus System Message Bus Socket.
+12:23:19,668 INFO systemd:Started Daily Cleanup of Temporary Directories.
+12:23:19,668 INFO systemd:Reached target Timers.
+12:23:19,668 INFO systemd:Listening on Open-iSCSI iscsid Socket.
+12:23:19,668 INFO systemd:Reached target Sockets.
+12:23:19,668 INFO systemd:Reached target Basic System.
+12:23:19,668 INFO systemd:Starting Hold until boot process finishes up...
+12:23:19,669 INFO systemd:Starting OpenSSH rsa Server Key Generation...
+12:23:19,670 INFO systemd:Starting OpenSSH ed25519 Server Key Generation...
+12:23:19,671 INFO systemd:Starting pre-anaconda logging service...
+12:23:19,678 INFO systemd:Starting OpenSSH ecdsa Server Key Generation...
+12:23:19,679 INFO systemd:Starting Terminate Plymouth Boot Screen...
+12:23:19,680 INFO systemd:Starting Login Service...
+12:23:19,681 INFO systemd:Starting Anaconda NetworkManager configuration...
+12:23:19,685 INFO systemd:Starting Service enabling compressing RAM with zRam...
+12:23:19,685 INFO systemd:Starting Hardware RNG Entropy Gatherer Wake threshold service...
+12:23:19,696 INFO zramswapon:+ MAX_RAM_ON=2097152
+12:23:19,706 INFO zramswapon:++ grep -E --only-matching '[[:digit:]]+'
+12:23:19,707 INFO zramswapon:++ grep MemTotal /proc/meminfo
+12:23:19,709 INFO systemd:Received SIGRTMIN+21 from PID 920 (plymouthd).
+12:23:19,711 INFO systemd:Started Hardware RNG Entropy Gatherer Wake threshold service.
+12:23:19,711 INFO systemd:Started Hardware RNG Entropy Gatherer Daemon.
+12:23:19,711 INFO zramswapon:+ mem_total_kb=4026960
+12:23:19,711 INFO zramswapon:+ grep -E 'inst\.zram=(on|1)' /proc/cmdline
+12:23:19,714 INFO systemd:Started Anaconda NetworkManager configuration.
+12:23:19,715 INFO systemd:Starting Network Manager...
+12:23:19,721 INFO systemd:Started Hold until boot process finishes up.
+12:23:19,721 INFO systemd:Started pre-anaconda logging service.
+12:23:19,722 INFO systemd:Started Terminate Plymouth Boot Screen.
+12:23:19,749 INFO zramswapon:+ force=1
+12:23:19,749 INFO zramswapon:+ '[' '(' 4026960 -gt 2097152 ')' -a '(' 1 '!=' 0 ')' ']'
+12:23:19,749 INFO zramswapon:+ exit 0
+12:23:19,750 INFO systemd:Started Service enabling compressing RAM with zRam.
+12:23:19,771 INFO systemd:Started D-Bus System Message Bus.
+12:23:19,858 INFO systemd:Started OpenSSH ed25519 Server Key Generation.
+12:23:19,858 INFO systemd:Started OpenSSH ecdsa Server Key Generation.
+12:23:19,876 INFO rngd:Initializing available sources
+12:23:19,877 INFO rngd:Failed to init entropy source hwrng
+12:23:19,877 INFO rngd:Enabling RDSEED rng support
+12:23:19,877 INFO rngd:Initializing entropy source rdrand
+12:23:19,954 INFO NetworkManager:<info>  [1596802999.9535] NetworkManager (version 1.22.8-4.el8) is starting... (for the first time)
+12:23:19,954 INFO NetworkManager:<info>  [1596802999.9535] Read config: /etc/NetworkManager/NetworkManager.conf (etc: 80-anaconda-no-ibft.conf, 90-anaconda-no-auto-default.conf, 91-anaconda-autoconnect-slaves.conf, 92-anaconda-loglevel-debug.conf)
+12:23:19,969 INFO systemd:Started Network Manager.
+12:23:19,969 INFO systemd:Reached target Network.
+12:23:19,969 INFO systemd:Starting RHSM dbus service...
+12:23:19,969 INFO systemd:Starting Network Manager Wait Online...
+12:23:19,970 INFO NetworkManager:<info>  [1596802999.9700] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+12:23:19,977 INFO systemd:Started OpenSSH rsa Server Key Generation.
+12:23:19,977 INFO systemd:Reached target sshd-keygen.target.
+12:23:19,982 INFO NetworkManager:<info>  [1596802999.9828] manager[0x5612f4057090]: monitoring kernel firmware directory '/lib/firmware'.
+12:23:19,987 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=0 pid=1614 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:kernel_t:s0")
+12:23:19,990 INFO systemd:Starting Hostname Service...
+12:23:20,468 INFO systemd-logind:New seat seat0.
+12:23:20,479 INFO systemd-logind:Watching system buttons on /dev/input/event0 (Power Button)
+12:23:20,479 INFO systemd-logind:Watching system buttons on /dev/input/event1 (Sleep Button)
+12:23:20,479 INFO systemd-logind:Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+12:23:20,481 INFO systemd:Started Login Service.
+12:23:20,734 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.hostname1'
+12:23:20,734 INFO systemd:Started Hostname Service.
+12:23:20,740 INFO NetworkManager:<info>  [1596803000.7392] hostname: hostname: using hostnamed
+12:23:20,740 INFO NetworkManager:<info>  [1596803000.7394] dns-mgr[0x5612f403a250]: init: dns=default,systemd-resolved rc-manager=symlink
+12:23:20,759 INFO NetworkManager:<info>  [1596803000.7596] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.22.8-4.el8/libnm-device-plugin-wifi.so)
+12:23:20,763 INFO NetworkManager:<info>  [1596803000.7628] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.22.8-4.el8/libnm-device-plugin-team.so)
+12:23:20,763 INFO NetworkManager:<info>  [1596803000.7628] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+12:23:20,763 INFO NetworkManager:<info>  [1596803000.7628] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+12:23:20,763 INFO NetworkManager:<info>  [1596803000.7629] manager: Networking is enabled by state file
+12:23:20,763 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=1614 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:kernel_t:s0")
+12:23:20,767 INFO NetworkManager:<info>  [1596803000.7676] dhcp-init: Using DHCP client 'internal'
+12:23:20,768 INFO systemd:Starting Network Manager Script Dispatcher Service...
+12:23:20,778 INFO NetworkManager:<info>  [1596803000.7782] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.22.8-4.el8/libnm-settings-plugin-ifcfg-rh.so")
+12:23:20,778 INFO NetworkManager:<info>  [1596803000.7782] settings: Loaded settings plugin: keyfile (internal)
+12:23:20,781 INFO NetworkManager:<info>  [1596803000.7795] device (lo): carrier: link connected
+12:23:20,782 INFO NetworkManager:<info>  [1596803000.7797] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+12:23:20,782 INFO NetworkManager:<info>  [1596803000.7805] manager: (enp0s5): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+12:23:20,782 INFO NetworkManager:<info>  [1596803000.7811] device (enp0s5): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+12:23:20,785 INFO kernel:IPv6: ADDRCONF(NETDEV_UP): enp0s5: link is not ready
+12:23:20,788 INFO NetworkManager:<info>  [1596803000.7880] device (enp0s5): carrier: link connected
+12:23:20,807 INFO NetworkManager:<info>  [1596803000.8073] device (enp0s5): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+12:23:20,817 INFO NetworkManager:<info>  [1596803000.8175] manager: startup complete
+12:23:20,820 INFO systemd:Started Network Manager Wait Online.
+12:23:20,820 INFO systemd:Reached target Network is Online.
+12:23:20,820 INFO systemd:Starting System Logging Service...
+12:23:20,835 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+12:23:20,836 INFO systemd:Started Network Manager Script Dispatcher Service.
+12:23:20,842 INFO nm-dispatcher:req:1 'hostname': new request (3 scripts)
+12:23:20,842 INFO nm-dispatcher:req:1 'hostname': start running ordered scripts...
+12:23:20,855 INFO nm-dispatcher:req:2 'connectivity-change': new request (3 scripts)
+12:23:20,885 INFO systemd:Started System Logging Service.
+12:23:20,886 INFO rsyslogd:[origin software="rsyslogd" swVersion="8.1911.0-3.el8" x-pid="1663" x-info="https://www.rsyslog.com"] start
+12:23:20,903 INFO nm-dispatcher:req:2 'connectivity-change': start running ordered scripts...
+12:23:22,657 INFO rngd:Initializing AES buffer
+12:23:22,658 INFO rngd:Enabling JITTER rng support
+12:23:22,658 INFO rngd:Initializing entropy source jitter
+12:23:22,784 INFO systemd:Started RHSM dbus service.
+12:23:22,784 INFO systemd:Reached target Anaconda System Services.
+12:23:22,784 INFO systemd:Starting Anaconda...
+12:23:22,963 INFO systemd:Started Anaconda.
+12:23:22,963 INFO systemd:Started Anaconda Text Console.
+12:23:22,963 INFO systemd:Startup finished in 4.353s (kernel) + 7.836s (initrd) + 7.611s (userspace) = 19.802s.
+12:23:24,518 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service' requested by ':1.9' (uid=0 pid=1693 comm="/usr/libexec/platform-python /sbin/anaconda " label="system_u:system_r:kernel_t:s0")
+12:23:24,520 INFO systemd:Starting Disk Manager...
+12:23:24,579 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.10' (uid=0 pid=1718 comm="/usr/libexec/udisks2/udisksd " label="system_u:system_r:kernel_t:s0")
+12:23:24,580 INFO systemd:Starting Authorization Manager...
+12:23:24,677 INFO polkitd:Started polkitd version 0.115
+12:23:24,905 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.PolicyKit1'
+12:23:24,905 INFO systemd:Started Authorization Manager.
+12:23:24,959 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.UDisks2'
+12:23:24,959 INFO systemd:Started Disk Manager.
+12:23:26,023 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Boss' requested by ':1.0' (uid=0 pid=1693 comm="/usr/libexec/platform-python /sbin/anaconda " label="system_u:system_r:kernel_t:s0")
+12:23:26,234 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Boss'
+12:23:26,237 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Timezone' requested by ':1.1' (uid=0 pid=1751 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:23:26,238 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Network' requested by ':1.1' (uid=0 pid=1751 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:23:26,240 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Localization' requested by ':1.1' (uid=0 pid=1751 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:23:26,241 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Security' requested by ':1.1' (uid=0 pid=1751 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:23:26,241 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Users' requested by ':1.1' (uid=0 pid=1751 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:23:26,242 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Payload' requested by ':1.1' (uid=0 pid=1751 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:23:26,242 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Storage' requested by ':1.1' (uid=0 pid=1751 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:23:26,242 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Services' requested by ':1.1' (uid=0 pid=1751 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:23:26,243 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Subscription' requested by ':1.1' (uid=0 pid=1751 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:23:26,243 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Addons.Baz' requested by ':1.1' (uid=0 pid=1751 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:23:27,360 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Addons.Baz'
+12:23:27,377 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Payload'
+12:23:27,423 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Timezone'
+12:23:27,428 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Services'
+12:23:27,437 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Users'
+12:23:27,444 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Localization'
+12:23:27,454 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Network'
+12:23:27,457 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Security'
+12:23:27,477 INFO systemd:Stopping RHSM dbus service...
+12:23:27,482 INFO systemd:Stopped RHSM dbus service.
+12:23:27,482 INFO systemd:Starting RHSM dbus service...
+12:23:27,667 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Storage'
+12:23:27,685 INFO rhsm-service:DEBUG [rhsm.https:56] Using standard libs to provide httplib and ssl
+12:23:27,769 INFO rhsm-service:DEBUG [rhsmlib.dbus.service_wrapper:66] Starting DBus service with name com.redhat.RHSM1
+12:23:27,772 INFO rhsm-service:DEBUG [subscription_manager.identity:139] Loading consumer info from identity certificates.
+12:23:27,772 INFO rhsm-service:DEBUG [subscription_manager.identity:154] Reload of consumer identity cert /etc/pki/consumer/cert.pem raised an exception with msg: [Errno 2] No such file or directory: '/etc/pki/consumer/key.pem'
+12:23:27,772 INFO systemd:Started RHSM dbus service.
+12:23:27,776 INFO rhsm-service:DEBUG [rhsmlib.dbus.server:182] Start notification sent
+12:23:27,777 INFO rhsm-service:DEBUG [rhsmlib.file_monitor:201] Added i-notifier watcher for: /etc/pki/consumer with mask: 642
+12:23:27,777 INFO rhsm-service:DEBUG [rhsmlib.file_monitor:201] Added i-notifier watcher for: /etc/pki/entitlement with mask: 642
+12:23:27,777 INFO rhsm-service:DEBUG [rhsmlib.file_monitor:201] Added i-notifier watcher for: /etc/rhsm/rhsm.conf with mask: 642
+12:23:27,777 INFO rhsm-service:DEBUG [rhsmlib.file_monitor:201] Added i-notifier watcher for: /etc/pki/product with mask: 642
+12:23:27,777 INFO rhsm-service:DEBUG [rhsmlib.file_monitor:201] Added i-notifier watcher for: /etc/rhsm/syspurpose/syspurpose.json with mask: 642
+12:23:27,778 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Subscription'
+12:23:28,684 INFO NetworkManager:<info>  [1596803008.6838] audit: op="connection-add" uuid="84010df8-7a05-4375-b82e-ff2a6bc19d40" name="enp0s5" pid=1693 uid=0 result="success"
+12:23:29,946 INFO kernel:broken atomic modeset userspace detected, disabling atomic
+12:23:30,705 INFO dbus-daemon:[session uid=0 pid=1883] Activating service name='org.a11y.Bus' requested by ':1.0' (uid=0 pid=1870 comm="metacity --display :1 --sm-disable " label="system_u:system_r:kernel_t:s0")
+12:23:30,731 INFO dbus-daemon:[session uid=0 pid=1883] Successfully activated service 'org.a11y.Bus'
+12:23:30,758 INFO org.a11y.Bus:SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+12:23:30,923 INFO kernel:SGI XFS with ACLs, security attributes, no debug enabled
+12:23:31,307 INFO systemd:Starting NTP client/server...
+12:23:31,331 INFO chronyd:chronyd version 3.5 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +SECHASH +IPV6 +DEBUG)
+12:23:31,339 INFO chronyd:Using right/UTC timezone to obtain leap second data
+12:23:31,356 INFO systemd:Started NTP client/server.
+12:23:31,357 INFO multipathd:Multipath configuration updated.
+12:23:31,357 INFO multipathd:Reload multipathd for changes to take effect
+12:23:45,260 INFO NetworkManager:<info>  [1596803025.2605] agent-manager: agent[a0031de41b08e3b1,:1.53/anaconda/0]: agent registered
+12:25:13,684 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.17' (uid=0 pid=1763 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+12:25:13,687 INFO systemd:Starting Hostname Service...
+12:25:13,892 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.hostname1'
+12:25:13,892 INFO systemd:Started Hostname Service.
+12:25:16,481 INFO NetworkManager:<info>  [1596803116.4812] device (enp0s5): Activation: starting connection 'enp0s5' (84010df8-7a05-4375-b82e-ff2a6bc19d40)
+12:25:16,481 INFO NetworkManager:<info>  [1596803116.4813] audit: op="connection-activate" uuid="84010df8-7a05-4375-b82e-ff2a6bc19d40" name="enp0s5" pid=1693 uid=0 result="success"
+12:25:16,481 INFO NetworkManager:<info>  [1596803116.4814] device (enp0s5): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+12:25:16,483 INFO NetworkManager:<info>  [1596803116.4816] manager: NetworkManager state is now CONNECTING
+12:25:16,484 INFO NetworkManager:<info>  [1596803116.4817] device (enp0s5): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+12:25:16,484 INFO NetworkManager:<info>  [1596803116.4822] device (enp0s5): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+12:25:16,485 INFO NetworkManager:<info>  [1596803116.4825] dhcp4 (enp0s5): activation: beginning transaction (timeout in 45 seconds)
+12:25:16,490 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option dhcp_lease_time      => '1800'
+12:25:16,490 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option domain_name          => 'localdomain'
+12:25:16,490 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option domain_name_servers  => '10.211.55.1'
+12:25:16,490 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option expiry               => '1596804916'
+12:25:16,490 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option host_name            => 'CentOS Linux 8'
+12:25:16,490 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option ip_address           => '10.211.55.170'
+12:25:16,490 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option next_server          => '10.211.55.1'
+12:25:16,490 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option requested_broadcast_address => '1'
+12:25:16,490 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option requested_domain_name => '1'
+12:25:16,490 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option requested_domain_name_servers => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option requested_domain_search => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4904] dhcp4 (enp0s5): option requested_host_name  => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_interface_mtu => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_ms_classless_static_routes => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_nis_domain => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_nis_servers => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_ntp_servers => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_rfc3442_classless_static_routes => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_root_path  => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_routers    => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_static_routes => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_subnet_mask => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_time_offset => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option requested_wpad       => '1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option routers              => '10.211.55.1'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): option subnet_mask          => '255.255.255.0'
+12:25:16,491 INFO NetworkManager:<info>  [1596803116.4905] dhcp4 (enp0s5): state changed unknown -> bound
+12:25:16,495 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=1614 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:kernel_t:s0")
+12:25:16,496 INFO NetworkManager:<info>  [1596803116.4925] device (enp0s5): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+12:25:16,497 INFO systemd:Starting Network Manager Script Dispatcher Service...
+12:25:16,509 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+12:25:16,509 INFO systemd:Started Network Manager Script Dispatcher Service.
+12:25:16,510 INFO nm-dispatcher:req:1 'pre-up' [enp0s5]: new request (0 scripts)
+12:25:16,510 INFO nm-dispatcher:req:1 'pre-up' [enp0s5]: completed: no scripts
+12:25:16,511 INFO NetworkManager:<info>  [1596803116.5110] device (enp0s5): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+12:25:16,511 INFO NetworkManager:<info>  [1596803116.5112] device (enp0s5): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+12:25:16,511 INFO NetworkManager:<info>  [1596803116.5115] manager: NetworkManager state is now CONNECTED_LOCAL
+12:25:16,512 INFO NetworkManager:<info>  [1596803116.5122] manager: NetworkManager state is now CONNECTED_SITE
+12:25:16,512 INFO NetworkManager:<info>  [1596803116.5122] policy: set 'enp0s5' (enp0s5) as default for IPv4 routing and DNS
+12:25:16,512 INFO NetworkManager:<info>  [1596803116.5123] policy: set-hostname: set hostname to 'CentOS Linux 8' (from DHCPv4)
+12:25:16,512 INFO NetworkManager:<info>  [1596803116.5126] device (enp0s5): Activation: successful, device activated.
+12:25:16,513 INFO NetworkManager:<info>  [1596803116.5130] manager: NetworkManager state is now CONNECTED_GLOBAL
+12:25:16,517 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.resolve1' unit='dbus-org.freedesktop.resolve1.service' requested by ':1.2' (uid=0 pid=1614 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:kernel_t:s0")
+12:25:16,517 INFO dbus-daemon:[system] Activation via systemd failed for unit 'dbus-org.freedesktop.resolve1.service': Unit dbus-org.freedesktop.resolve1.service not found.
+12:25:16,518 INFO nm-dispatcher:req:2 'up' [enp0s5]: new request (3 scripts)
+12:25:16,520 INFO nm-dispatcher:req:2 'up' [enp0s5]: start running ordered scripts...
+12:25:16,521 INFO nm-dispatcher:req:3 'connectivity-change': new request (3 scripts)
+12:25:16,546 INFO nm-dispatcher:req:3 'connectivity-change': start running ordered scripts...
+12:25:18,141 INFO NetworkManager:<info>  [1596803118.1414] policy: set-hostname: current hostname was changed outside NetworkManager: 'localhost'
+12:25:18,141 INFO NetworkManager:<info>  [1596803118.1414] policy: set-hostname: set hostname to 'CentOS Linux 8' (from DHCPv4)
+12:25:21,631 INFO chronyd:Selected source 80.240.216.155
+12:25:21,632 INFO chronyd:System clock TAI offset set to 37 seconds
+12:25:21,992 INFO NetworkManager:<info>  [1596803121.9915] policy: set-hostname: current hostname was changed outside NetworkManager: 'localhost'
+12:25:21,992 INFO NetworkManager:<info>  [1596803121.9916] policy: set-hostname: set hostname to 'CentOS Linux 8' (from DHCPv4)
+12:25:44,792 INFO kernel: sda:
+12:25:44,899 INFO kernel: sda:
+12:25:44,964 INFO kernel: sda: sda1
+12:25:45,246 INFO kernel: sda: sda1
+12:25:45,298 INFO kernel: sda: sda1 sda2
+12:25:45,527 INFO dbus-daemon:[system] Activating via systemd: service name='com.redhat.lvmdbus1' unit='lvm2-lvmdbusd.service' requested by ':1.56' (uid=0 pid=2228 comm="lvm pvcreate /dev/sda2 --config= devices { preferr" label="system_u:system_r:kernel_t:s0")
+12:25:45,529 INFO systemd:Starting LVM2 D-Bus service...
+12:25:45,534 INFO systemd:Created slice system-lvm2\x2dpvscan.slice.
+12:25:45,534 INFO systemd:Starting LVM event activation on device 8:2...
+12:25:45,552 INFO lvm:  pvscan[2231] PV /dev/sda2 not used.
+12:25:45,563 INFO systemd:Started LVM event activation on device 8:2.
+12:25:45,676 INFO dbus-daemon:[system] Successfully activated service 'com.redhat.lvmdbus1'
+12:25:45,676 INFO systemd:Started LVM2 D-Bus service.
+12:25:46,834 INFO kernel:Adding 4161532k swap on /dev/mapper/cl-swap.  Priority:-2 extents:1 across:4161532k SSFS
+12:25:46,953 INFO kernel:XFS (dm-4): Ending clean mount
+12:25:47,122 INFO kernel:EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+12:25:47,836 INFO kernel:XFS (dm-3): Ending clean mount
+12:25:48,877 INFO systemd:Stopping NTP client/server...
+12:25:48,878 INFO chronyd:chronyd exiting
+12:25:48,881 INFO systemd:Stopped NTP client/server.
+12:27:24,633 INFO kernel:SELinux:  Converting 289 SID table entries...
+12:27:24,761 INFO kernel:SELinux:  policy capability network_peer_controls=1
+12:27:24,761 INFO kernel:SELinux:  policy capability open_perms=1
+12:27:24,761 INFO kernel:SELinux:  policy capability extended_socket_class=1
+12:27:24,761 INFO kernel:SELinux:  policy capability always_check_network=0
+12:27:24,761 INFO kernel:SELinux:  policy capability cgroup_seclabel=1
+12:27:24,761 INFO kernel:SELinux:  policy capability nnp_nosuid_transition=1
+12:27:24,761 INFO dbus-daemon:[system] Reloaded configuration
+12:27:24,762 INFO dbus-daemon:[session uid=0 pid=1883] Reloaded configuration
+12:27:24,762 INFO dbus-daemon:Reloaded configuration
+12:27:25,084 INFO dbus-daemon:[system] Reloaded configuration
+12:27:57,235 INFO kernel:SELinux:  Converting 357 SID table entries...
+12:27:57,235 INFO kernel:SELinux:  policy capability network_peer_controls=1
+12:27:57,235 INFO kernel:SELinux:  policy capability open_perms=1
+12:27:57,235 INFO kernel:SELinux:  policy capability extended_socket_class=1
+12:27:57,235 INFO kernel:SELinux:  policy capability always_check_network=0
+12:27:57,235 INFO kernel:SELinux:  policy capability cgroup_seclabel=1
+12:27:57,235 INFO kernel:SELinux:  policy capability nnp_nosuid_transition=1
+12:27:57,269 INFO dbus-daemon:[session uid=0 pid=1883] Reloaded configuration
+12:27:57,270 INFO dbus-daemon:[system] Reloaded configuration
+12:27:57,271 INFO dbus-daemon:Reloaded configuration
+12:28:17,033 INFO systemd-sysusers:Creating group dnsmasq with gid 984.
+12:28:17,034 INFO systemd-sysusers:Creating user dnsmasq (Dnsmasq DHCP and DNS server) with uid 984 and gid 984.
+12:28:17,221 INFO dbus-daemon:[session uid=0 pid=1883] Reloaded configuration
+12:28:17,221 INFO dbus-daemon:[system] Reloaded configuration
+12:28:17,223 INFO dbus-daemon:Reloaded configuration
+12:28:17,261 INFO dbus-daemon:[session uid=0 pid=1883] Reloaded configuration
+12:28:17,263 INFO dbus-daemon:[system] Reloaded configuration
+12:28:17,266 INFO dbus-daemon:Reloaded configuration
+12:28:19,427 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=0 pid=1614 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:kernel_t:s0")
+12:28:19,427 INFO NetworkManager:<info>  [1596803299.4146] policy: set-hostname: current hostname was changed outside NetworkManager: 'localhost'
+12:28:19,427 INFO NetworkManager:<info>  [1596803299.4146] policy: set-hostname: set hostname to 'CentOS Linux 8' (from DHCPv4)
+12:28:19,443 INFO systemd:Starting Hostname Service...
+12:28:19,754 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.hostname1'
+12:28:19,754 INFO systemd:Started Hostname Service.
+12:28:24,480 INFO dbus-daemon:[system] Reloaded configuration
+12:28:28,467 INFO systemd-logind:Watching system buttons on /dev/input/event1 (Sleep Button)
+12:28:28,470 INFO systemd-logind:Watching system buttons on /dev/input/event0 (Power Button)
+12:28:28,609 INFO systemd-logind:Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+12:28:57,754 INFO dbus-daemon:[system] Reloaded configuration
+12:31:46,479 INFO systemd:Started /usr/bin/systemctl start man-db-cache-update.
+12:31:46,576 INFO systemctl:Failed to start man-db-cache-update.service: Unit man-db-cache-update.service not found.
+12:31:50,431 INFO kernel:fuse: init (API version 7.31)
+12:31:50,432 INFO systemd:Mounting FUSE Control File System...
+12:31:50,437 INFO systemd:Mounted FUSE Control File System.
+12:31:50,939 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.225' (uid=0 pid=1693 comm="/usr/libexec/platform-python /sbin/anaconda " label="system_u:system_r:kernel_t:s0")
+12:31:50,946 INFO systemd:Starting Locale Service...
+12:31:51,153 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.locale1'
+12:31:51,153 INFO systemd:Started Locale Service.
+12:31:51,190 INFO systemd-localed:Changed X11 keyboard layout to 'us' model '' variant '' options ''
+12:31:51,197 INFO systemd-localed:Changed X11 keyboard layout to '' model '' variant '' options ''
+12:31:51,205 INFO systemd-localed:Changed X11 keyboard layout to 'us' model '' variant '' options ''
+12:31:51,209 INFO systemd-localed:Changed X11 keyboard layout to '' model '' variant '' options ''
+12:32:04,420 INFO NetworkManager:<info>  [1596803524.4194] policy: set-hostname: current hostname was changed outside NetworkManager: 'localhost'
+12:32:04,420 INFO NetworkManager:<info>  [1596803524.4195] policy: set-hostname: set hostname to 'CentOS Linux 8' (from DHCPv4)
+12:32:04,422 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=0 pid=1614 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:kernel_t:s0")
+12:32:04,425 INFO systemd:Starting Hostname Service...
+12:32:04,773 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.hostname1'
+12:32:04,773 INFO systemd:Started Hostname Service.

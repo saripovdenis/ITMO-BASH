@@ -1,0 +1,269 @@
+[    25.616] Warning: Failed to open protocol names file /usr/lib64/xorg/protocol.txt
+[    25.658] Warning: Falling back to old probe method for fbdev
+[    25.623] Information: The server relies on udev to provide the list of input devices.
+[    25.623] Information: Loader magic: 0x55ab2c75e020
+[    25.623] Information: Module ABI versions:
+[    25.624] Information: systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    25.624] Information: xfree86: Adding drm device (/dev/dri/card0)
+[    25.624] Information: Platform probe for /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/virtio2/drm/card0
+[    25.626] Information: LoadModule: "glx"
+[    25.626] Information: Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[    25.645] Information: Module glx: vendor="X.Org Foundation"
+[    25.645] Information: LoadModule: "modesetting"
+[    25.645] Information: Loading /usr/lib64/xorg/modules/drivers/modesetting_drv.so
+[    25.652] Information: Module modesetting: vendor="X.Org Foundation"
+[    25.652] Information: LoadModule: "fbdev"
+[    25.652] Information: Loading /usr/lib64/xorg/modules/drivers/fbdev_drv.so
+[    25.656] Information: Module fbdev: vendor="X.Org Foundation"
+[    25.656] Information: LoadModule: "vesa"
+[    25.656] Information: Loading /usr/lib64/xorg/modules/drivers/vesa_drv.so
+[    25.656] Information: Module vesa: vendor="X.Org Foundation"
+[    25.656] Information: modesetting: Driver for Modesetting Kernel Drivers: kms
+[    25.656] Information: FBDEV: driver for framebuffer: fbdev
+[    25.656] Information: VESA: driver for VESA chipsets: vesa
+[    25.658] Information: modeset(0): using drv /dev/dri/card0
+[    25.658] Information: Loading sub module "fbdevhw"
+[    25.658] Information: LoadModule: "fbdevhw"
+[    25.658] Information: Loading /usr/lib64/xorg/modules/libfbdevhw.so
+[    25.663] Information: Module fbdevhw: vendor="X.Org Foundation"
+[    25.663] Information: modeset(0): Creating default Display subsection in Screen section
+[    25.663] Information: Loading sub module "glamoregl"
+[    25.663] Information: LoadModule: "glamoregl"
+[    25.663] Information: Loading /usr/lib64/xorg/modules/libglamoregl.so
+[    25.675] Information: Module glamoregl: vendor="X.Org Foundation"
+[    26.782] Information: modeset(0): Refusing to try glamor on llvmpipe
+[    26.783] Information: modeset(0): ShadowFB: preferred NO, enabled NO
+[    26.783] Information: modeset(0): Output Virtual-1 has no monitor section
+[    26.783] Information: modeset(0): EDID for output Virtual-1
+[    26.783] Information: modeset(0): Printing probed modes for output Virtual-1
+[    26.783] Information: modeset(0): Modeline "1024x768"x59.9   63.53  1024 1072 1176 1328  768 771 775 798 -hsync +vsync (47.8 kHz P)
+[    26.783] Information: modeset(0): Modeline "4096x2160"x60.0  556.74  4096 4104 4136 4176  2160 2208 2216 2222 +hsync -vsync (133.3 kHz e)
+[    26.783] Information: modeset(0): Modeline "4096x2160"x59.9  556.19  4096 4104 4136 4176  2160 2208 2216 2222 +hsync -vsync (133.2 kHz e)
+[    26.783] Information: modeset(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+[    26.783] Information: modeset(0): Modeline "2560x1600"x60.0  268.50  2560 2608 2640 2720  1600 1603 1609 1646 +hsync -vsync (98.7 kHz e)
+[    26.783] Information: modeset(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+[    26.783] Information: modeset(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+[    26.783] Information: modeset(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+[    26.783] Information: modeset(0): Modeline "2048x1152"x60.0  162.00  2048 2074 2154 2250  1152 1153 1156 1200 +hsync +vsync (72.0 kHz e)
+[    26.783] Information: modeset(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+[    26.783] Information: modeset(0): Modeline "1920x1200"x60.0  154.00  1920 1968 2000 2080  1200 1203 1209 1235 +hsync -vsync (74.0 kHz e)
+[    26.783] Information: modeset(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 -hsync -vsync (67.5 kHz e)
+[    26.783] Information: modeset(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+[    26.783] Information: modeset(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+[    26.783] Information: modeset(0): Modeline "1680x1050"x59.9  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[    26.783] Information: modeset(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+[    26.783] Information: modeset(0): Modeline "1400x1050"x59.9  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[    26.783] Information: modeset(0): Modeline "1600x900"x60.0  108.00  1600 1624 1704 1800  900 901 904 1000 +hsync +vsync (60.0 kHz e)
+[    26.783] Information: modeset(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    26.783] Information: modeset(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[    26.783] Information: modeset(0): Modeline "1440x900"x59.9   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[    26.783] Information: modeset(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    26.783] Information: modeset(0): Modeline "1366x768"x59.8   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz e)
+[    26.783] Information: modeset(0): Modeline "1366x768"x60.0   72.00  1366 1380 1436 1500  768 769 772 800 +hsync +vsync (48.0 kHz e)
+[    26.783] Information: modeset(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+[    26.783] Information: modeset(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[    26.783] Information: modeset(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    26.783] Information: modeset(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+[    26.783] Information: modeset(0): Modeline "1280x768"x60.0   68.25  1280 1328 1360 1440  768 771 778 790 +hsync -vsync (47.4 kHz e)
+[    26.783] Information: modeset(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    26.783] Information: modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    26.783] Information: modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    26.783] Information: modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    26.783] Information: modeset(0): Modeline "848x480"x60.0   33.75  848 864 976 1088  480 486 494 517 +hsync +vsync (31.0 kHz e)
+[    26.783] Information: modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    26.783] Information: modeset(0): Output Virtual-1 connected
+[    26.784] Information: modeset(0): Using exact sizes for initial modes
+[    26.784] Information: modeset(0): Output Virtual-1 using initial mode 1024x768 +0+0
+[    26.784] Information: Loading sub module "fb"
+[    26.784] Information: LoadModule: "fb"
+[    26.787] Information: Loading /usr/lib64/xorg/modules/libfb.so
+[    26.792] Information: Module fb: vendor="X.Org Foundation"
+[    26.792] Information: UnloadModule: "fbdev"
+[    26.792] Information: Unloading fbdev
+[    26.792] Information: UnloadSubModule: "fbdevhw"
+[    26.792] Information: Unloading fbdevhw
+[    26.792] Information: UnloadModule: "vesa"
+[    26.792] Information: Unloading vesa
+[    26.808] Information: modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[    26.808] Information: Initializing extension Generic Event Extension
+[    26.808] Information: Initializing extension SHAPE
+[    26.808] Information: Initializing extension MIT-SHM
+[    26.808] Information: Initializing extension XInputExtension
+[    26.808] Information: Initializing extension XTEST
+[    26.808] Information: Initializing extension BIG-REQUESTS
+[    26.808] Information: Initializing extension SYNC
+[    26.808] Information: Initializing extension XKEYBOARD
+[    26.808] Information: Initializing extension XC-MISC
+[    26.808] Information: Initializing extension XFIXES
+[    26.808] Information: Initializing extension RENDER
+[    26.808] Information: Initializing extension RANDR
+[    26.808] Information: Initializing extension COMPOSITE
+[    26.808] Information: Initializing extension DAMAGE
+[    26.808] Information: Initializing extension MIT-SCREEN-SAVER
+[    26.808] Information: Initializing extension DOUBLE-BUFFER
+[    26.808] Information: Initializing extension RECORD
+[    26.808] Information: Initializing extension DPMS
+[    26.808] Information: Initializing extension Present
+[    26.808] Information: Initializing extension DRI3
+[    26.809] Information: Initializing extension X-Resource
+[    26.809] Information: Initializing extension XVideo
+[    26.809] Information: Initializing extension XVideo-MotionCompensation
+[    26.809] Information: Initializing extension SELinux
+[    26.809] Information: SELinux: Disabled by boolean
+[    26.809] Information: Initializing extension GLX
+[    26.809] Information: AIGLX: Screen 0 is not DRI2 capable
+[    26.819] Information: IGLX: Loaded and initialized swrast
+[    26.819] Information: GLX: Initialized DRISWRAST GL provider for screen 0
+[    26.819] Information: Initializing extension XFree86-VidModeExtension
+[    26.819] Information: Initializing extension XFree86-DGA
+[    26.819] Information: Initializing extension XFree86-DRI
+[    26.819] Information: Initializing extension DRI2
+[    26.819] Information: modeset(0): Damage tracking initialized
+[    26.819] Information: modeset(0): Setting screen physical size to 270 x 203
+[    26.900] Information: config/udev: Adding input device Power Button (/dev/input/event0)
+[    26.900] Information: LoadModule: "libinput"
+[    26.900] Information: Loading /usr/lib64/xorg/modules/input/libinput_drv.so
+[    26.909] Information: Module libinput: vendor="X.Org Foundation"
+[    26.909] Information: Using input driver 'libinput' for 'Power Button'
+[    26.917] Information: event0  - Power Button: is tagged by udev as: Keyboard
+[    26.917] Information: event0  - Power Button: device is a keyboard
+[    26.917] Information: event0  - Power Button: device removed
+[    26.923] Information: XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    26.923] Information: event0  - Power Button: is tagged by udev as: Keyboard
+[    26.923] Information: event0  - Power Button: device is a keyboard
+[    26.924] Information: config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    26.924] Information: Using input driver 'libinput' for 'Sleep Button'
+[    26.924] Information: event1  - Sleep Button: is tagged by udev as: Keyboard
+[    26.924] Information: event1  - Sleep Button: device is a keyboard
+[    26.924] Information: event1  - Sleep Button: device removed
+[    26.931] Information: XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[    26.931] Information: event1  - Sleep Button: is tagged by udev as: Keyboard
+[    26.931] Information: event1  - Sleep Button: device is a keyboard
+[    26.932] Information: config/udev: Adding input device Parallels Virtual Mouse (/dev/input/event3)
+[    26.932] Information: Using input driver 'libinput' for 'Parallels Virtual Mouse'
+[    26.985] Information: event3  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[    26.986] Information: event3  - Parallels Virtual Mouse: device is a pointer
+[    26.986] Information: event3  - Parallels Virtual Mouse: device removed
+[    27.003] Information: XINPUT: Adding extended input device "Parallels Virtual Mouse" (type: MOUSE, id 8)
+[    27.055] Information: event3  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[    27.056] Information: event3  - Parallels Virtual Mouse: device is a pointer
+[    27.056] Information: config/udev: Adding input device Parallels Virtual Mouse (/dev/input/js0)
+[    27.056] Information: No input driver specified, ignoring this device.
+[    27.056] Information: This device may have been added with another device file.
+[    27.056] Information: config/udev: Adding input device Parallels Virtual Mouse (/dev/input/mouse0)
+[    27.056] Information: No input driver specified, ignoring this device.
+[    27.056] Information: This device may have been added with another device file.
+[    27.057] Information: config/udev: Adding input device Parallels Virtual Mouse (/dev/input/event4)
+[    27.057] Information: Using input driver 'libinput' for 'Parallels Virtual Mouse'
+[    27.110] Information: event4  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[    27.110] Information: event4  - Parallels Virtual Mouse: device is a pointer
+[    27.110] Information: event4  - Parallels Virtual Mouse: device removed
+[    27.127] Information: XINPUT: Adding extended input device "Parallels Virtual Mouse" (type: MOUSE, id 9)
+[    27.180] Information: event4  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[    27.180] Information: event4  - Parallels Virtual Mouse: device is a pointer
+[    27.180] Information: config/udev: Adding input device Parallels Virtual Mouse (/dev/input/mouse1)
+[    27.180] Information: No input driver specified, ignoring this device.
+[    27.180] Information: This device may have been added with another device file.
+[    27.181] Information: config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    27.181] Information: Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    27.181] Information: event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    27.181] Information: event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    27.182] Information: event2  - AT Translated Set 2 keyboard: device removed
+[    27.193] Information: XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 10)
+[    27.193] Information: event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    27.193] Information: event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    27.194] Information: config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event5)
+[    27.194] Information: Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[    27.194] Information: event5  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    27.194] Information: event5  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    27.195] Information: event5  - ImExPS/2 Generic Explorer Mouse: device removed
+[    27.212] Information: XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 11)
+[    27.212] Information: event5  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    27.212] Information: event5  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    27.213] Information: config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse2)
+[    27.213] Information: No input driver specified, ignoring this device.
+[    27.213] Information: This device may have been added with another device file.
+[    27.213] Information: config/udev: Adding input device PC Speaker (/dev/input/event6)
+[    27.213] Information: No input driver specified, ignoring this device.
+[    27.213] Information: This device may have been added with another device file.
+[   326.481] Information: config/udev: removing device Sleep Button
+[   326.481] Information: event1  - Sleep Button: device removed
+[   326.485] Information: UnloadModule: "libinput"
+[   326.485] Information: config/udev: Adding input device Sleep Button (/dev/input/event1)
+[   326.485] Information: Using input driver 'libinput' for 'Sleep Button'
+[   326.485] Information: event1  - Sleep Button: is tagged by udev as: Keyboard
+[   326.485] Information: event1  - Sleep Button: device is a keyboard
+[   326.485] Information: event1  - Sleep Button: device removed
+[   326.488] Information: XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[   326.488] Information: event1  - Sleep Button: is tagged by udev as: Keyboard
+[   326.488] Information: event1  - Sleep Button: device is a keyboard
+[   326.488] Information: config/udev: removing device Power Button
+[   326.489] Information: event0  - Power Button: device removed
+[   326.492] Information: UnloadModule: "libinput"
+[   326.492] Information: config/udev: Adding input device Power Button (/dev/input/event0)
+[   326.492] Information: Using input driver 'libinput' for 'Power Button'
+[   326.492] Information: event0  - Power Button: is tagged by udev as: Keyboard
+[   326.492] Information: event0  - Power Button: device is a keyboard
+[   326.492] Information: event0  - Power Button: device removed
+[   326.495] Information: XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[   326.495] Information: event0  - Power Button: is tagged by udev as: Keyboard
+[   326.495] Information: event0  - Power Button: device is a keyboard
+[   326.533] Information: config/udev: Adding input device Parallels Virtual Mouse (/dev/input/mouse0)
+[   326.533] Information: No input driver specified, ignoring this device.
+[   326.533] Information: This device may have been added with another device file.
+[   326.542] Information: config/udev: Adding input device Parallels Virtual Mouse (/dev/input/js0)
+[   326.542] Information: No input driver specified, ignoring this device.
+[   326.542] Information: This device may have been added with another device file.
+[   326.554] Information: config/udev: Adding input device Parallels Virtual Mouse (/dev/input/mouse1)
+[   326.554] Information: No input driver specified, ignoring this device.
+[   326.554] Information: This device may have been added with another device file.
+[   326.568] Information: config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse2)
+[   326.568] Information: No input driver specified, ignoring this device.
+[   326.568] Information: This device may have been added with another device file.
+[   326.580] Information: config/udev: removing device Parallels Virtual Mouse
+[   326.580] Information: event4  - Parallels Virtual Mouse: device removed
+[   326.713] Information: UnloadModule: "libinput"
+[   326.714] Information: config/udev: Adding input device Parallels Virtual Mouse (/dev/input/event4)
+[   326.714] Information: Using input driver 'libinput' for 'Parallels Virtual Mouse'
+[   326.766] Information: event4  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[   326.766] Information: event4  - Parallels Virtual Mouse: device is a pointer
+[   326.767] Information: event4  - Parallels Virtual Mouse: device removed
+[   326.961] Information: XINPUT: Adding extended input device "Parallels Virtual Mouse" (type: MOUSE, id 9)
+[   327.013] Information: event4  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[   327.013] Information: event4  - Parallels Virtual Mouse: device is a pointer
+[   327.014] Information: config/udev: removing device Parallels Virtual Mouse
+[   327.014] Information: event3  - Parallels Virtual Mouse: device removed
+[   327.208] Information: UnloadModule: "libinput"
+[   327.208] Information: config/udev: Adding input device Parallels Virtual Mouse (/dev/input/event3)
+[   327.208] Information: Using input driver 'libinput' for 'Parallels Virtual Mouse'
+[   327.260] Information: event3  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[   327.260] Information: event3  - Parallels Virtual Mouse: device is a pointer
+[   327.261] Information: event3  - Parallels Virtual Mouse: device removed
+[   327.457] Information: XINPUT: Adding extended input device "Parallels Virtual Mouse" (type: MOUSE, id 8)
+[   327.509] Information: event3  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[   327.510] Information: event3  - Parallels Virtual Mouse: device is a pointer
+[   327.518] Information: config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[   327.519] Information: event5  - ImExPS/2 Generic Explorer Mouse: device removed
+[   327.527] Information: UnloadModule: "libinput"
+[   327.527] Information: config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event5)
+[   327.527] Information: Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[   327.527] Information: event5  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[   327.527] Information: event5  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[   327.528] Information: event5  - ImExPS/2 Generic Explorer Mouse: device removed
+[   327.535] Information: XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 11)
+[   327.535] Information: event5  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[   327.535] Information: event5  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[   327.537] Information: config/udev: removing device AT Translated Set 2 keyboard
+[   327.537] Information: event2  - AT Translated Set 2 keyboard: device removed
+[   327.540] Information: UnloadModule: "libinput"
+[   327.540] Information: config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[   327.540] Information: Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[   327.540] Information: event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[   327.541] Information: event2  - AT Translated Set 2 keyboard: device is a keyboard
+[   327.541] Information: event2  - AT Translated Set 2 keyboard: device removed
+[   327.545] Information: XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 10)
+[   327.545] Information: event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[   327.545] Information: event2  - AT Translated Set 2 keyboard: device is a keyboard
+[   327.547] Information: config/udev: Adding input device PC Speaker (/dev/input/event6)
+[   327.547] Information: No input driver specified, ignoring this device.
+[   327.547] Information: This device may have been added with another device file.
